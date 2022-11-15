@@ -80,7 +80,7 @@ Material:
     - _Offset: 1
     - _Parallax: 0.02
     - _Segmented: 1
-    - _ShnIntense: 0.057
+    - _ShnIntense: 0.203
     - _ShnOverlap: 0
     - _ShnRange: 0.103
     - _ShnSmooth: 0.683
@@ -92,7 +92,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.98489654, g: 0.48584908, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShnColor: {r: 1, g: 0, b: 0.42745098, a: 1}
+    - _ShnColor: {r: 1, g: 0.32040966, b: 0, a: 1}
   m_BuildTextureStacks: []
