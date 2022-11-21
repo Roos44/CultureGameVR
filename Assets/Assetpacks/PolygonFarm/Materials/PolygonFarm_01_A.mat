@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PolygonFarm_01_A
-  m_Shader: {fileID: 4800000, guid: 7cd5de0b884b14f88ab763ef465e1799, type: 3}
+  m_Shader: {fileID: 4800000, guid: 128c5f1edaefa4c4fb3f9f7a4615edb2, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _EMISSION
@@ -79,13 +79,13 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Offset: 1
-    - _OtlWidth: 1
+    - _OtlWidth: 0.51
     - _Parallax: 0.02
     - _Segmented: 1
-    - _ShnIntense: 0
+    - _ShnIntense: 0.224
     - _ShnOverlap: 0
-    - _ShnRange: 0
-    - _ShnSmooth: 0
+    - _ShnRange: 0.769
+    - _ShnSmooth: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -94,8 +94,8 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.9811321, g: 0.9624562, b: 0.8284087, a: 1}
+    - _Color: {r: 0.88699996, g: 0.9909027, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShnColor: {r: 1, g: 0.9564916, b: 0, a: 1}
+    - _OtlColor: {r: 0.46569064, g: 0.60280573, b: 0.6132076, a: 1}
+    - _ShnColor: {r: 0.8055358, g: 0.990566, b: 0.52799034, a: 1}
   m_BuildTextureStacks: []
