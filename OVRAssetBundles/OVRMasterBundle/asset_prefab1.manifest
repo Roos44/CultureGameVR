@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 1504413139
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f045f69cc58f23973a0f53a7ca0ae0f1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 424a7407e4c71b4cd02936893e55e185
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_13.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Wheat_02.prefab
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_02.prefab
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/FX_Prefabs/FX_SunBeams.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Flower_08.prefab
+- Assets/Assetpacks/PolygonSamurai/Prefabs/Environments/SM_Env_Flowers_01.prefab
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Props/SM_Prop_Candle_Melted_04.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Generic/SM_Generic_Mountains_Grass_01.prefab
+- Assets/Oculus/SampleFramework/Core/Locomotion/TeleportLaser.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Props/SM_Prop_Wood_Stack_01.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Props/SM_Prop_Sack_03.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Hedge_01.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Grass_02.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Bridge_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Pebbles_01.prefab
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/FX_Prefabs/FX_Fog_Small_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Wheat_Cut_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Apricot_Grown_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Generic/SM_Generic_Mountains_Grass_02.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Plant_05.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Broccoli_01_L.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Wheat_Optimised_01.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Flower_02.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Plant_04.prefab
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Planter_Pot_06.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Grass_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Generic/SM_Generic_TreeStump_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Pebbles_02.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Flower_03.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Props/SM_Prop_Tool_Hayfork_01.prefab
+Dependencies:
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_asset0
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_asset1
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx1
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx2
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx3
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx4
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_mat0

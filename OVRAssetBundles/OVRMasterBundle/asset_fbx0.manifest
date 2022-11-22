@@ -1,0 +1,70 @@
+ManifestFileVersion: 0
+CRC: 3575271619
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 58756c0c12c796042c9a2a879c9eda8f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3a4a4f3396b8d517cba2cfd57ec27b70
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Plant_04.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Reeds_02.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Cloud_04.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Stump_01.fbx
+- Assets/Assetpacks/PolygonWestern/Models/SM_Prop_JailBed_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Apricot_Grown_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Bridge_01.fbx
+- Assets/Assetpacks/PolygonSamurai/Models/SM_Env_Flowers_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Wheat_Optimised_04.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Broccoli_01_S.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Bush_01_S.fbx
+- Assets/Model/Tree.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Bush_03_L.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Corn_01_L.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Generic_Ground_Dirt_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Pear_Grown_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Flowers_03.fbx
+- Assets/Assetpacks/PolygonPirates/Models/Fish.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
+- Assets/Assetpacks/PolygonSamurai/Models/SM_Env_Bridge_03.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Bld_FencePost_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Flower_03.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_DirtMound_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Cloud_05.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Road_Gravel_End_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Generic_Mountains_Grass_02.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Grass_02.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Ice_03.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Dirt_Rows_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Wheat_Cut_01.fbx
+Dependencies:
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_png0

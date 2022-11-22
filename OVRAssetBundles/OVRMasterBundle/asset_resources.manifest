@@ -1,0 +1,144 @@
+ManifestFileVersion: 0
+CRC: 2794357376
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f7cc7245eaf1dfbb9a563d3094869bea
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1259e3f46c70cca93b46bf2381eacb32
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 12001, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad074644ff568a14187a3690cfbd7534, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3863570e7e6387a40ae4f323d83291e5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.IMGUIModule
+  ClassName: UnityEngine.GUISettings
+- AssemblyName: UnityEngine.IMGUIModule
+  ClassName: UnityEngine.GUIStyle
+Assets:
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Clear.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/PWBData.txt
+- Assets/Resources/ONSPSettings.asset
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Materials/GravityLines.mat
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Eraser.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Line.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Line.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/HideGridTools.png
+- Assets/Oculus/Voice/Resources/voicesdk_texts_en-us.json
+- Assets/Oculus/Voice/Lib/Wit.ai/Resources/wit-ai-title.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Next.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/DepthOverwrite.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/PWBSkin.guiskin
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/ShowGridToolsH.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/ShowGrid.png
+- Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
+- Assets/Oculus/VR/Resources/Cubemap Blit.shader
+- Assets/Oculus/VR/Resources/Underlay Impostor.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Materials/Indicator.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Help.png
+- Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LockGrid.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/R.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/X.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Label.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Replace.png
+- Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader
+- Assets/Oculus/Voice/Lib/Wit.ai/Resources/witai_texts_en-us.json
+- Assets/PluginMaster/DesignTools/Editor/Common/Resources/Sprites/BoxBg.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Grid.png
+- Assets/Oculus/Voice/Resources/voicesdk_heroart.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/SnapOn.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/RadialGrid.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/SnapSettings.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Extrude.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Shape.png
+- Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/RadialGrid.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/UnlockGrid.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/UnderlayTransparentOccluderImposter.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Brush.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Shape.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/DropdownArrow.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Eraser.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Picker.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/ShowGrid.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/S.png
+- Assets/Resources/OVRPlatformToolSettings.asset
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Selection.png
+- Assets/Resources/OculusRuntimeSettings.asset
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Mixed.png
+- Assets/Resources/OVRBuildConfig.asset
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/T.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/IncludeEnabled.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Extrude.png
+- Assets/Oculus/VR/Resources/Unlit Transparent Color.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/GravityLines.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Materials/TransparentRed.shader
+- Assets/PluginMaster/DesignTools/Editor/Common/Resources/Sprites/ButtonNormal.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/UnlockGrid.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/C.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Empty.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/GravityTool.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Replace.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Settings.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Same.png
+- Assets/PluginMaster/DesignTools/Editor/Common/Resources/Sprites/Warning.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/SnapSettings.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaBlended.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/LockGrid.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Edited.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_Opaque.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Update.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Tiling.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/HideGridToolsH.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Z.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/ShowGridTools.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaCutout.shader
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaToMask.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Mirror.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Help.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/UIOverlay.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Y.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Mirror.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/IncludeDisabled.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/ButtonOnNormal.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/New.png
+- Assets/Oculus/VR/Resources/OVRMRUnlit.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Prev.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Cursor.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/SnapOn.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Pin.png
+- Assets/PluginMaster/DesignTools/Editor/Common/Resources/Sprites/ButtonHover.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/GravityTool.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/SelectionFilter.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_Underlay.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Brush.png
+- Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_Underlay_AA.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Pin.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Selection.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/Delete.png
+- Assets/Oculus/Voice/Lib/Wit.ai/Resources/continue-with-fb.png
+- Assets/Oculus/Voice/Lib/Wit.ai/Resources/witai.png
+- Assets/Oculus/VR/Resources/Texture2D Blit.shader
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Tiling.png
+- Assets/PluginMaster/DesignTools/Editor/PrefabWorldBuilder/Resources/Sprites/LightTheme/Grid.png
+Dependencies: []

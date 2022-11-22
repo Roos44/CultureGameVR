@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1107966143
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49a290344216e418d309570a556b34ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0b1b996afefcdb43727f3042384e65d2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Grass.terrainlayer
+- Assets/Dirt.terrainlayer
+Dependencies:
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_jpg0

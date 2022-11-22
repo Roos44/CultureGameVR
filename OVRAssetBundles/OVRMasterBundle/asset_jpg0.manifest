@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1213283236
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8aa30dc6ef09e6b8155dd2cba4fcf39c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Terrain/Texture/82c0f468c885d2eb037401b269d89b1e--grass-texture-paint-texture.jpg
+- Assets/Terrain/Texture/3008a7d97a44a792f4db44ae235c8905.jpg
+Dependencies: []

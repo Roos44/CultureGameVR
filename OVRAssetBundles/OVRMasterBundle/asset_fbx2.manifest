@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 26894184
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce2e0c4641e1c1ffd7f4508d40be6e45
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f991f80580d5c93b0763ecc3a2dc9cfa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/SM_Env_Flowers_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Tool_Hoe_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Stump_03.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Beehive_04.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_TreeBirch_02.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Left.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_TreeBirch_01.fbx
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/SM_Bld_Tent_Single_01.fbx
+- Assets/Assetpacks/PolygonWestern/Models/SM_Prop_Stick_Bundle_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Flower_06.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Generic_Tree_03.fbx
+- Assets/Model/Lake_Eel_Long.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Wheat_Optimised_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Wheat_Cut_02.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Rock_07.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_TreeLog_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Ice_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Prop_Barrel_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Tool_Hayfork_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Prop_Cart_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Corn_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Bld_Village_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Plum_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Tool_Spade_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Bld_Village_06.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Wheat_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Flowers_01.fbx
+- Assets/Assetpacks/PolygonSamurai/Models/Collisions/SM_Env_Bridge_03_Collision.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/right_touch_controller_model_skel.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Cabbage_01_S.fbx
+Dependencies:
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_mat0

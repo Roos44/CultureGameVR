@@ -1,0 +1,94 @@
+ManifestFileVersion: 0
+CRC: 1795932791
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9e2aca918d655a328caf472e0c3e1caf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2654b874c62d6d4685de8f1bac07ca7b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0950df82e7936c84983497630bde5b54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f07515ada089df47868559a20dd6783, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df8e1d778abf442e4bec449c360e9e1c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b71d1996d67004241a3b69960856ffcb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Broccoli_01_S.prefab
+- Assets/Assetpacks/PolygonSamurai/Prefabs/Environments/SM_Env_Flowers_02.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_TreeBirch_02.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Reeds_02.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Corn_01_S.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Wheat_Optimised_03.prefab
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Flowers_14.prefab
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Bush_03.prefab
+- Assets/Assetpacks/PolygonWestern/Prefabs/Props/SM_Prop_JailBed_01.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Flower_06.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_TreeBirch_03.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Flowers_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Generic/SM_Generic_Grass_Patch_03.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Props/SM_Prop_Tool_Hoe_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Flowers_03.prefab
+- Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab
+- Assets/Assetpacks/PolygonSamurai/Prefabs/Props/SM_Prop_Zen_Lantern_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Carrot_01_L.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Buildings/SM_Bld_FencePost_01.prefab
+- Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/FX_Prefabs/FX_Dust_Small_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Road_Gravel_End_01.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Props/SM_Prop_Crate_01.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Ice_03.prefab
+- Assets/Assetpacks/PolygonPirates/Prefabs/SkyDome.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Tree_Peach_Grown_01.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Flower_04.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Plant_Bush_02_Tomato.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Generic/SM_Generic_Grass_Patch_01.prefab
+- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Flowers_02.prefab
+- Assets/Assetpacks/PolygonAdventure/Prefabs/Environments/SM_Env_Ice_01.prefab
+Dependencies:
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_asset0
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_asset1
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx1
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx2
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx3
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_fbx4
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_mat0

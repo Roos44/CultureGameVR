@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 1832945952
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 24e8188618a44bb1a61baa20f25e7e01
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b620e813e5919af9ff9f677118b5a005
+HashAppended: 0
+ClassTypes:
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Prop_Sack_02_Convex 1.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Pear_Grown_01_Convex
+  1.asset
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/Convex/SM_Env_Planter_Pot_06_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_TreeBirch_03_Convex
+  3.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Generic_TreeStump_01_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Cabbage_01_S_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Bld_Village_06_Convex 1.asset
+- Assets/Assetpacks/Low Poly Water/Plane Meshes/Plane5x5W500H500.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Lemon_Grown_01_Convex
+  1.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Generic_Tree_Patch_02_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Large_01_Convex
+  4.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Bld_Village_04_Convex 1.asset
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/Convex/SM_Prop_Candle_Melted_04_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_Rock_03_Snow_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Tool_Hayfork_01_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Stump_01_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_Ice_03_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Tool_Hoe_01_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_TreeBirch_02_Convex
+  2.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Prop_Sack_03_Convex 1.asset
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/Convex/SM_Env_Bush_03_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_Rock_07_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Generic_Tree_04_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Generic_Tree_03_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Bld_Village_02_Convex 1.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Tool_Spade_01_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Stump_03_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Plum_01_Convex
+  1.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_TreeBirch_01_Convex
+  2.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Prop_Cart_01_Convex 2.asset
+Dependencies: []

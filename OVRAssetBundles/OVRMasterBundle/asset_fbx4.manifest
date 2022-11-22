@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 3886048955
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6de64e42518831ab162ec27afd1ccf27
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f991f80580d5c93b0763ecc3a2dc9cfa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/SM_Env_Bush_03.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Ice_02.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Cloud_03.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Corn_01_M.fbx
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/SM_Env_Flowers_13.fbx
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/SM_Env_StoneWall_Pillar_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Pebbles_01.fbx
+- Assets/Assetpacks/PolygonPirates/Models/SM_Prop_Window_Top_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Broccoli_01_M.fbx
+- Assets/Oculus/VR/Meshes/MetaQuestTouchPro/MetaQuestTouchPro_Left.fbx
+Dependencies:
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_mat0

@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 1011963770
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 323ff948acd9e4314a398c852e2f8890
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 897acbbffc68ee44b09a16d3cb8ae3f8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b71ad40e238046238f9b0c6f33c3791, type: 3}
+- Class: 156
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_Ice_02_Convex.asset
+- Assets/Assetpacks/PolygonWestern/Models/SM_Prop_Stick_Bundle_01_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Beehive_02_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_TreeBirch_01_Convex
+  1.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Prop_Barrel_02_Convex 5.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Peach_Grown_01_Convex
+  1.asset
+- Assets/Assetpacks/PolygonSamurai/Models/SM_Prop_Zen_Lantern_01_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Apricot_Grown_01_Convex
+  2.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_Bridge_01_Convex 3.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Cabbage_01_M_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Cabbage_01_L_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_Hedge_01_Convex.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_Ice_01_Convex.asset
+- Assets/Terrain/Terrain_0_0_5c4156e0-27a9-4021-b103-9ea06b9cc550.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Bld_FencePost_01_Convex
+  1.asset
+- Assets/Assetpacks/PolygonAdventure/Models/Collision/SM_Env_TreeLog_01_Convex 1.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Beehive_04_Convex.asset
+- Assets/Assetpacks/PolygonWestern/Models/SM_Prop_JailBed_01_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Prop_Wood_Stack_01_Convex.asset
+- Assets/Assetpacks/PolygonFarm/Models/CollisionConvex/SM_Env_Tree_Apple_Grown_01_Convex
+  2.asset
+Dependencies:
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_terrainlayer0

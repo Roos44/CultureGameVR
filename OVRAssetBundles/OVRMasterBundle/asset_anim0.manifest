@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3315035226
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 66c5a85842a42cb91561fb768f290d4d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Model/Anamation/Eel_Swim.anim
+- Assets/Assetpacks/Animation/Swing.anim
+Dependencies: []

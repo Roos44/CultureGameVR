@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 4220525046
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 53bb99eb865ef11a38b2f0665d251238
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aa873ece1901f457a74f841f7a1346d8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Reeds_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Generic_Grass_Patch_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Cabbage_01_M.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Flower_04.fbx
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/SM_Env_Planter_Pot_06.fbx
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/SM_Env_Flowers_02.fbx
+- Assets/Assetpacks/PolygonFantasyKingdom/Models/SunShafts.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Hedge_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Lemon_Grown_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Wheat_03.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Generic_TreeStump_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Bush_02_Tomato.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Prop_Sack_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Peach_Grown_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Flowers_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Wheat_Optimised_03.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Prop_Sack_03.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Bld_Village_04.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Plant_Wheat_Optimised_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Large_01.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Flower_08.fbx
+- Assets/Model/Lake_Eel_Small.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Env_Flower_02.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Tree_Apple_Grown_01.fbx
+- Assets/Assetpacks/PolygonPirates/Models/SkyDome.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Wood_Stack_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Prop_Cabbage_01_L.fbx
+- Assets/Assetpacks/PolygonAdventure/Models/SM_Prop_Crate_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/SM_Env_Road_Gravel_End_01.fbx
+- Assets/Assetpacks/PolygonFarm/Models/FX_Sphere.fbx
+Dependencies:
+- D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_mat0

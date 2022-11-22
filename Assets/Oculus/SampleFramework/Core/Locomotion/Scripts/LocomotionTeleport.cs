@@ -148,7 +148,7 @@ public class LocomotionTeleport : MonoBehaviour
 	public TeleportDestination TeleportDestinationPrefab;
 	[Tooltip("TeleportDestinationPrefab will be instantiated into this layer.")]
 	public int TeleportDestinationLayer = 0;
-
+	
 	#region Support Events
 	/// <summary>
 	/// This event is raised when the teleport destination is in the process of being updated. It is used by the active TeleportDestination
@@ -300,43 +300,43 @@ public class LocomotionTeleport : MonoBehaviour
 		switch (AimCollisionType)
 		{
 			case AimCollisionTypes.Capsule:
+			{
+				float r, h;
+				if (UseCharacterCollisionData)
 				{
-					float r, h;
-					if (UseCharacterCollisionData)
-					{
-						var c = LocomotionController.CharacterController;
-						h = c.height;
-						r = c.radius;
-					}
-					else
-					{
-						h = AimCollisionHeight;
-						r = AimCollisionRadius;
-					}
-					return Physics.CapsuleCast(start + new Vector3(0, r, 0),
-						start + new Vector3(0, h + r, 0), r, direction,
-						out hitInfo, distance, aimCollisionLayerMask, QueryTriggerInteraction.Ignore);
+					var c = LocomotionController.CharacterController;
+					h = c.height;
+					r = c.radius;
 				}
+				else
+				{
+					h = AimCollisionHeight;
+					r = AimCollisionRadius;
+				}
+				return Physics.CapsuleCast(start + new Vector3(0, r, 0),
+					start + new Vector3(0, h + r, 0), r, direction,
+					out hitInfo, distance, aimCollisionLayerMask, QueryTriggerInteraction.Ignore);
+			}
 
 			case AimCollisionTypes.Point:
-				return Physics.Raycast(start, direction, out hitInfo, distance, aimCollisionLayerMask, QueryTriggerInteraction.Ignore);
+				return Physics.Raycast(start, direction, out hitInfo, distance, aimCollisionLayerMask,QueryTriggerInteraction.Ignore);
 
 			case AimCollisionTypes.Sphere:
+			{
+				float r;
+				if (UseCharacterCollisionData)
 				{
-					float r;
-					if (UseCharacterCollisionData)
-					{
-						var c = LocomotionController.CharacterController;
-						//r = c.radius - c.skinWidth;
-						r = c.radius;
-					}
-					else
-					{
-						r = AimCollisionRadius;
-					}
-					return Physics.SphereCast(start, r, direction, out hitInfo, distance, aimCollisionLayerMask,
-						QueryTriggerInteraction.Ignore);
+					var c = LocomotionController.CharacterController;
+					//r = c.radius - c.skinWidth;
+					r = c.radius;
 				}
+				else
+				{
+					r = AimCollisionRadius;
+				}
+				return Physics.SphereCast(start, r, direction, out hitInfo, distance, aimCollisionLayerMask,
+					QueryTriggerInteraction.Ignore);
+			}
 		}
 
 		// App should never get here.
@@ -351,7 +351,7 @@ public class LocomotionTeleport : MonoBehaviour
 	[Conditional("DEBUG_TELEPORT_STATES")]
 	protected void LogState(string msg)
 	{
-		Debug.Log(Time.frameCount + ": " + msg);
+		Debug.Log(Time.frameCount + ": " +  msg);
 	}
 
 	/// <summary>
@@ -385,7 +385,7 @@ public class LocomotionTeleport : MonoBehaviour
 		{
 			CreateNewTeleportDestination();
 		}
-		GameObject.Destroy(oldDestination.gameObject);
+		GameObject.Destroy(oldDestination.gameObject);	
 	}
 
 	/// <summary>
@@ -413,12 +413,12 @@ public class LocomotionTeleport : MonoBehaviour
 	/// <summary>
 	/// Start the state machine coroutines.
 	/// </summary>
-	public virtual void OnEnable()
+	public virtual void OnEnable ()
 	{
 		CurrentState = States.Ready;
 		StartCoroutine(ReadyStateCoroutine());
 	}
-	public virtual void OnDisable()
+	public virtual void OnDisable ()
 	{
 		StopAllCoroutines();
 	}
@@ -543,7 +543,7 @@ public class LocomotionTeleport : MonoBehaviour
 		_teleportDestination.gameObject.SetActive(true);
 
 		// Wait until the user is done aiming. The input system will turn this off when the button that triggered aiming is released.
-		while (CurrentIntention == TeleportIntentions.Aim)
+		while (CurrentIntention == TeleportIntentions.Aim) 
 		{
 			yield return null;
 		}
@@ -846,7 +846,7 @@ public class LocomotionTeleport : MonoBehaviour
 	{
 		var destTransform = _teleportDestination.OrientationIndicator;
 		Vector3 destPosition = destTransform.position;
-		destPosition.y += LocomotionController.CharacterController.height / 2.0f;
+		destPosition.y += LocomotionController.CharacterController.height/2.0f;
 
 		var character = LocomotionController.CharacterController;
 		var characterTransform = character.transform;

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 736345704
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1504828caacbde7c47cc6a4bbf7e8607
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Oculus/VR/Textures/OculusTouchForQuestAndRiftS/OculusQuestTouchControllerTexture.tga
+- Assets/Assetpacks/PolygonFarm/Textures/PolygonFarm_Texture_Metallic.tga
+- Assets/Oculus/VR/Textures/OculusTouchForQuest2/OculusTouchForQuest2_AlbedoRoughness.tga
+- Assets/Assetpacks/LowPolyWater_Pack/Textures/Foam.tga
+- Assets/Assetpacks/PolygonFarm/Textures/Leaves_Diff.tga
+Dependencies: []
