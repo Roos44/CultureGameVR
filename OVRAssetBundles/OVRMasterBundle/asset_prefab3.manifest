@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1795932791
+CRC: 3023861657
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9e2aca918d655a328caf472e0c3e1caf
+    Hash: 0e49e60d0ea1eab6e4f93af04409fcd7
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2654b874c62d6d4685de8f1bac07ca7b
@@ -67,7 +67,6 @@ Assets:
 - Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Flowers_01.prefab
 - Assets/Assetpacks/PolygonFarm/Prefabs/Generic/SM_Generic_Grass_Patch_03.prefab
 - Assets/Assetpacks/PolygonFarm/Prefabs/Props/SM_Prop_Tool_Hoe_01.prefab
-- Assets/Assetpacks/PolygonFarm/Prefabs/Environments/SM_Env_Flowers_03.prefab
 - Assets/Oculus/VR/Prefabs/OVRPlayerController.prefab
 - Assets/Assetpacks/PolygonSamurai/Prefabs/Props/SM_Prop_Zen_Lantern_01.prefab
 - Assets/Assetpacks/PolygonFarm/Prefabs/Plants/SM_Prop_Carrot_01_L.prefab

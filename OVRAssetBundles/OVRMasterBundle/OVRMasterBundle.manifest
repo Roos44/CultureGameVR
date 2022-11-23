@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2206725690
+CRC: 1255617219
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -48,15 +48,14 @@ AssetBundleManifest:
     Info_4:
       Name: asset_prefab2
       Dependencies:
-        Dependency_0: asset_controller0
-        Dependency_1: asset_fbx0
-        Dependency_2: asset_fbx1
-        Dependency_3: asset_fbx2
-        Dependency_4: asset_fbx3
-        Dependency_5: asset_fbx4
-        Dependency_6: asset_asset0
-        Dependency_7: asset_asset1
-        Dependency_8: asset_mat0
+        Dependency_0: asset_fbx0
+        Dependency_1: asset_fbx1
+        Dependency_2: asset_fbx2
+        Dependency_3: asset_fbx3
+        Dependency_4: asset_fbx4
+        Dependency_5: asset_asset0
+        Dependency_6: asset_asset1
+        Dependency_7: asset_mat0
     Info_5:
       Name: asset_prefab3
       Dependencies:

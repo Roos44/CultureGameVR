@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2661749752
+CRC: 1798720514
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4ec11e6fce933031a31c8eb10b56dfba
+    Hash: 1790812fe9c7443b27359290c655eb60
   TypeTreeHash:
     serializedVersion: 2
     Hash: 070e64028d0fb02d3485eb0d43485f8b
@@ -14,7 +14,6 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Simple Toon/Shaders/STOutline.shader
-- Assets/Simple Toon/Shaders/STDefault.shader
 - Assets/Assetpacks/LowPolyWater_Pack/Shaders/WaterShaded.shader
 Dependencies:
 - D:/Documents/School/Y4/Garduation/Documents/Unity/Graduation_Culture_project/OVRAssetBundles/OVRMasterBundle/asset_tga0

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3309142497
+CRC: 4270061884
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ac1d7aeb65add83b1707bb9b21e3879a
+    Hash: a7ddee4f14b83dbb14b2c7039a9cf781
   TypeTreeHash:
     serializedVersion: 2
     Hash: fdf6c57a251b9f6ec27bdd2fe01b033c
@@ -15,7 +15,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Assetpacks/PolygonPirates/Animators/Fish.controller
 - Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Animation/OculusTouchQuestAndRiftSLeftAnimation.controller
 - Assets/Model/Anamation/Eel.controller
 - Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Animation/OculusTouchQuest2LeftAnimation.controller

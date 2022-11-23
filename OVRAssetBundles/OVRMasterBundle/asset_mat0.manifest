@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1483824311
+CRC: 3982973788
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b763f2b78c9ff9aa22391c58460263c7
+    Hash: 562dcd7e0f245f5a0c6ef29ac6812951
   TypeTreeHash:
     serializedVersion: 2
     Hash: 5cfde277c59e2844be8c85dba6ef7c0e
@@ -28,7 +28,6 @@ Assets:
 - Assets/Assetpacks/PolygonPirates/Materials/FX_Materials/SimpleSky.mat
 - Assets/Assetpacks/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Mat_01.mat
 - Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
-- Assets/Assetpacks/PolygonPirates/Models/Materials/Texture_01_A.mat
 - Assets/Material/Bace 1.mat
 - Assets/Assetpacks/PolygonFarm/Materials/PolygonFarm_01_A.mat
 - Assets/Assetpacks/PolygonFarm/Materials/Misc/PolygonFarm_Leaf_01.mat

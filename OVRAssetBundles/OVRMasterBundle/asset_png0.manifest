@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1528685861
+CRC: 3049331219
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 58ce503bd041fce39a9eec23c7ed1926
+    Hash: b2b5a3c4a5561c4a708674e981528336
   TypeTreeHash:
     serializedVersion: 2
     Hash: b0363f7088f9761414f730641bf9a24b
@@ -17,7 +17,6 @@ Assets:
 - Assets/Assetpacks/PolygonFarm/Textures/Leaves_Normals.png
 - Assets/Oculus/VR/Textures/HandTracking/HandTracking_uvmap_2048.png
 - Assets/Assetpacks/PolygonAdventure/Models/SM_Bld_Village_01.fbm/PolygonFarm_Texture_01_A.png
-- Assets/Assetpacks/PolygonPirates/Textures/Texture_01_A.png
 - Assets/Oculus/VR/Textures/MetaQuestTouchPro/controller_l_lo_Normal.png
 - Assets/Oculus/VR/Textures/OculusTouchForRift/touchController_albedo.png
 - Assets/Oculus/VR/Textures/MetaQuestTouchPro/controller_r_lo_Normal.png
