@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4133556709840642}
   - component: {fileID: 33686658168723758}
   - component: {fileID: 23940486372919012}
-  - component: {fileID: 64588623583417282}
-  - component: {fileID: 64526595626068170}
+  - component: {fileID: 7590475589135168953}
+  - component: {fileID: 1280904172402842851}
+  - component: {fileID: 4493302483136896755}
   m_Layer: 0
   m_Name: SM_Prop_Chair_01
   m_TagString: Untagged
@@ -85,8 +86,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64588623583417282
-MeshCollider:
+--- !u!65 &7590475589135168953
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,12 +96,11 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43840572287429086, guid: ba6f2a32b2f4d18459dc0c9d50615416, type: 2}
---- !u!64 &64526595626068170
-MeshCollider:
+  serializedVersion: 2
+  m_Size: {x: 0.54568046, y: 0.084875286, z: 0.6859122}
+  m_Center: {x: 0.0008893904, y: 0.03863789, z: 0.015104681}
+--- !u!65 &1280904172402842851
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -109,7 +109,19 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43285729512179378, guid: ba6f2a32b2f4d18459dc0c9d50615416, type: 2}
+  serializedVersion: 2
+  m_Size: {x: 0.8896158, y: 0.13698635, z: 0.087063946}
+  m_Center: {x: 0.0000000940756, y: 0.543503, z: -0.28431976}
+--- !u!65 &4493302483136896755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991082771421754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5598278, y: 0.61579216, z: 0.06153147}
+  m_Center: {x: 0.003859314, y: 0.30409592, z: -0.29708585}
