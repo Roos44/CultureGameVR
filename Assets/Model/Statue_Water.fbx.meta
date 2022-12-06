@@ -1,21 +1,13 @@
 fileFormatVersion: 2
-guid: e72bd87cdd7f5ff4fba863df808642b7
+guid: 30ac356c5c59e4e40b5361382386be2e
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable:
-  - first:
-      74: 1827226128182048838
-    second: Take 001
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: fdf18c58b725a2f469593ece1786d307, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert5
+      name: lambert7
     second: {fileID: 2100000, guid: fdf18c58b725a2f469593ece1786d307, type: 2}
   materials:
     materialImportMode: 2
@@ -89,7 +81,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
