@@ -14,17 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 3221
-    y: 133
+    x: 337
+    y: 1045
+    width: 1119
+    height: 221
+  m_ShowMode: 0
+  m_Title: Project Settings
+  m_RootView: {fileID: 5}
+  m_MinSize: {x: 310, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 1369
+    y: 168
     width: 32
     height: 541
   m_ShowMode: 0
   m_Title: Tools
-  m_RootView: {fileID: 4}
+  m_RootView: {fileID: 7}
   m_MinSize: {x: 32, y: 53}
   m_MaxSize: {x: 4000, y: 4021}
   m_Maximized: 0
---- !u!114 &2
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38,17 +62,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1920
+    x: 0
     y: 43
     width: 1920
     height: 1037
   m_ShowMode: 4
   m_Title: Scene
-  m_RootView: {fileID: 9}
+  m_RootView: {fileID: 12}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &3
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectSettingsWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1119
+    height: 221
+  m_MinSize: {x: 310, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1119
+    height: 221
+  m_MinSize: {x: 310, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 60714
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,14 +141,14 @@ MonoBehaviour:
     y: 0
     width: 32
     height: 541
-  m_MinSize: {x: 32, y: 53}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 32, y: 32}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &4
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -97,8 +171,8 @@ MonoBehaviour:
   m_MinSize: {x: 32, y: 53}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 7365
---- !u!114 &5
+  controlID: 17
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,8 +185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 6}
+  - {fileID: 15}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -122,8 +196,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 88
---- !u!114 &6
+  controlID: 71
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,18 +212,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1615
+    x: 1474
     y: 0
-    width: 305
+    width: 446
     height: 987
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 23}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 27}
   m_Panes:
-  - {fileID: 23}
+  - {fileID: 27}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &7
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,18 +240,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 257
-    height: 614
+    width: 325
+    height: 887
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 28}
   m_Panes:
-  - {fileID: 24}
-  - {fileID: 19}
-  - {fileID: 18}
+  - {fileID: 28}
+  - {fileID: 23}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 2
---- !u!114 &8
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,26 +261,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: PrefabPalette
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 614
-    width: 1615
-    height: 373
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 22}
+    y: 887
+    width: 1474
+    height: 100
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 22}
-  - {fileID: 27}
+  - {fileID: 26}
+  - {fileID: 31}
+  - {fileID: 24}
   - {fileID: 20}
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &9
+  m_Selected: 2
+  m_LastSelected: 0
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,9 +293,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  - {fileID: 11}
+  - {fileID: 13}
+  - {fileID: 8}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -234,7 +308,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &10
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -256,7 +330,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &11
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -277,7 +351,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &12
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,19 +364,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 13}
-  - {fileID: 8}
+  - {fileID: 16}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1615
+    width: 1474
     height: 987
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 89
---- !u!114 &13
+  controlID: 61
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,19 +389,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 14}
+  - {fileID: 10}
+  - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1615
-    height: 614
+    width: 1474
+    height: 887
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 90
---- !u!114 &14
+  controlID: 62
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -342,21 +416,76 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 257
+    x: 325
     y: 0
-    width: 1358
-    height: 614
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 25}
+    width: 1149
+    height: 887
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 29}
   m_Panes:
+  - {fileID: 29}
+  - {fileID: 30}
   - {fileID: 25}
-  - {fileID: 26}
   - {fileID: 21}
-  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &15
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 310, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Project Settings
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 337
+    y: 1045
+    width: 1119
+    height: 200
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 0}
+  m_Scope: 1
+  m_SplitterFlex: 0.2
+  m_SearchText: 
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 4dcf9b58
+    m_LastClickedID: 1486606157
+    m_ExpandedIDs: a01a5fa6000000004f0a7f2e
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -376,15 +505,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3221
-    y: 133
+    x: 1369
+    y: 168
     width: 32
     height: 520
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &16
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -404,18 +533,18 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 687
+    x: 0
+    y: 727
     width: 1614
-    height: 352
+    height: 312
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -144642
---- !u!114 &17
+  m_LastSelectedObjectID: 27750
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -615,7 +744,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &18
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -635,10 +764,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
+    x: 0
     y: 73
-    width: 256
-    height: 593
+    width: 324
+    height: 656
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -13550,6 +13679,1128 @@ MonoBehaviour:
           _restartPatternForEachStroke: 1
         _name: Envirment
         _id: -8585329173542319588
+        _brushCreationSettings:
+          _includeSubfolders: 1
+          _createLablesForEachDroppedFolder: 0
+          _addLabelsToDroppedPrefabs: 0
+          _labelsCSV: 
+          _defaultBrushSettings:
+            _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+          _defaultThumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+      - _brushes:
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638042898933561167
+          _name: SM_Env_Big_Tree_01
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 1847aa3ec5e8b29468675ceacfd7f8e6
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Big_Tree_01.prefab
+            _frequency: 1
+            _parentId: 638042898933561167
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638059298720030953
+          _name: Table_stone
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: b7c91481ac7f00943b4808f39b5e0513
+            _prefabPath: Assets/Model/Table_stone.fbx
+            _frequency: 1
+            _parentId: 638059298720030953
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638059319748485008
+          _name: SMall_TabelCoverBroken
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: f2637b2b48f640b4892a473626b63fc4
+            _prefabPath: Assets/Model/SMall_TabelCoverBroken.fbx
+            _frequency: 1
+            _parentId: 638059319748485008
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638059319751049958
+          _name: SM_Prop_Cup_01V2
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: dc40d9eb815f2ab43859635289d96ba5
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Models/SM_Prop_Cup_01V2.fbx
+            _frequency: 1
+            _parentId: 638059319751049958
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638059319753663637
+          _name: SM_Prop_Cup_01
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: e3dc28775b6601d4db8b54c23e2cfcf7
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Props/SM_Prop_Cup_01.prefab
+            _frequency: 1
+            _parentId: 638059319753663637
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638060209770457159
+          _name: Idele_Wind
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 43ff1b36d3434704f86660718e23db0b
+            _prefabPath: Assets/Model/Idele_Wind.fbx
+            _frequency: 1
+            _parentId: 638060209770457159
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638060209773002609
+          _name: Idele_Sun
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 8c4bb097a13ce9749bd02f5aa7f30bbf
+            _prefabPath: Assets/Model/Idele_Sun.fbx
+            _frequency: 1
+            _parentId: 638060209773002609
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638060209775435861
+          _name: Idele_Earthe
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: ab1f2dd6deeac5045bc2d4ede3117053
+            _prefabPath: Assets/Model/Idele_Earthe.fbx
+            _frequency: 1
+            _parentId: 638060209775435861
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638060209777748642
+          _name: Idele_water
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: fa624475b96191c4fb755dc4324826bf
+            _prefabPath: Assets/Model/Idele_water.fbx
+            _frequency: 1
+            _parentId: 638060209777748642
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        _name: FestifalSpot
+        _id: -8585329179082652553
         _brushCreationSettings:
           _includeSubfolders: 1
           _createLablesForEachDroppedFolder: 0
@@ -32908,894 +34159,6 @@ MonoBehaviour:
             _zoom: 1
             _targetEuler: {x: 0, y: 125, z: 0}
             _targetOffset: {x: 0, y: 0}
-          _id: 638042898933561167
-          _name: SM_Env_Big_Tree_01
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: 1847aa3ec5e8b29468675ceacfd7f8e6
-            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Big_Tree_01.prefab
-            _frequency: 1
-            _parentId: 638042898933561167
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059298720030953
-          _name: Table_stone
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: b7c91481ac7f00943b4808f39b5e0513
-            _prefabPath: Assets/Model/Table_stone.fbx
-            _frequency: 1
-            _parentId: 638059298720030953
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059319748485008
-          _name: SMall_TabelCoverBroken
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: f2637b2b48f640b4892a473626b63fc4
-            _prefabPath: Assets/Model/SMall_TabelCoverBroken.fbx
-            _frequency: 1
-            _parentId: 638059319748485008
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059319751049958
-          _name: SM_Prop_Cup_01V2
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: dc40d9eb815f2ab43859635289d96ba5
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Models/SM_Prop_Cup_01V2.fbx
-            _frequency: 1
-            _parentId: 638059319751049958
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059319753663637
-          _name: SM_Prop_Cup_01
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: e3dc28775b6601d4db8b54c23e2cfcf7
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Props/SM_Prop_Cup_01.prefab
-            _frequency: 1
-            _parentId: 638059319753663637
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059396239321329
-          _name: Idele_Earthe
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: ab1f2dd6deeac5045bc2d4ede3117053
-            _prefabPath: Assets/Model/Idele_Earthe.fbx
-            _frequency: 1
-            _parentId: 638059396239321329
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059396241830060
-          _name: Idele_water
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: fa624475b96191c4fb755dc4324826bf
-            _prefabPath: Assets/Model/Idele_water.fbx
-            _frequency: 1
-            _parentId: 638059396241830060
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        _name: FestifalSpot
-        _id: -8585329179082652553
-        _brushCreationSettings:
-          _includeSubfolders: 1
-          _createLablesForEachDroppedFolder: 0
-          _addLabelsToDroppedPrefabs: 0
-          _labelsCSV: 
-          _defaultBrushSettings:
-            _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-          _defaultThumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-      - _brushes:
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
           _id: 638043811513566024
           _name: SM_Prop_Flute_01 1
           _items:
@@ -34584,8 +34947,8 @@ MonoBehaviour:
             _zoom: 1
             _targetEuler: {x: 0, y: 125, z: 0}
             _targetOffset: {x: 0, y: 0}
-      _selectedPaletteIdx: 5
-      _selectedBrushIdx: 6
+      _selectedPaletteIdx: 0
+      _selectedBrushIdx: 28
       _showBrushName: 0
       _viewList: 0
     pinManager:
@@ -35108,7 +35471,7 @@ MonoBehaviour:
         _orientAlongBrushstroke: 0
         _additionalOrientationAngle: {x: 0, y: 0, z: 0}
         _spacingType: 0
-        _minSpacing: 0.27100894
+        _minSpacing: 1
         _randomizePositions: 1
         _randomness: 1
         _simData:
@@ -35122,7 +35485,7 @@ MonoBehaviour:
           _changeLayer: 0
           _tempLayer: 0
           _ignoreSceneColliders: 0
-        _height: 1
+        _height: 10
     _lineManager:
       _profileKeys:
       - Default
@@ -38888,16 +39251,16 @@ MonoBehaviour:
         _snappingEnabled: 0
         _snappingOn:
           x: 1
-          y: 0
-          z: 1
+          y: 1
+          z: 0
         _visibleGrid: 0
         _gridOn:
           x: 0
-          y: 1
-          z: 0
+          y: 0
+          z: 1
         _lockedGrid: 0
         _step: {x: 1, y: 1, z: 1}
-        _origin: {x: 23.769463, y: 14.200086, z: 44.837234}
+        _origin: {x: 23.769463, y: 20, z: -18.628147}
         _rotation: {x: 0, y: 0, z: 0, w: 1}
         _showPositionHandle: 1
         _showRotationHandle: 0
@@ -38909,7 +39272,7 @@ MonoBehaviour:
         _snapToCircunference: 1
         _majorLinesGap: {x: 10, y: 10, z: 10}
   _selection: 00000000
---- !u!114 &19
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38929,10 +39292,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 73
-    width: 256
-    height: 593
+    x: -1680
+    y: 98
+    width: 224
+    height: 613
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -42546,7 +42909,7 @@ MonoBehaviour:
         _state: 3
         _initialBrushId: 638043818284317001
         _closed: 0
---- !u!114 &20
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42566,10 +42929,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 687
-    width: 1614
-    height: 352
+    x: 0
+    y: 960
+    width: 1473
+    height: 79
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -55481,6 +55844,1128 @@ MonoBehaviour:
           _restartPatternForEachStroke: 1
         _name: Envirment
         _id: -8585329173542319588
+        _brushCreationSettings:
+          _includeSubfolders: 1
+          _createLablesForEachDroppedFolder: 0
+          _addLabelsToDroppedPrefabs: 0
+          _labelsCSV: 
+          _defaultBrushSettings:
+            _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+          _defaultThumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+      - _brushes:
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638042898933561167
+          _name: SM_Env_Big_Tree_01
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 1847aa3ec5e8b29468675ceacfd7f8e6
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Big_Tree_01.prefab
+            _frequency: 1
+            _parentId: 638042898933561167
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638059298720030953
+          _name: Table_stone
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: b7c91481ac7f00943b4808f39b5e0513
+            _prefabPath: Assets/Model/Table_stone.fbx
+            _frequency: 1
+            _parentId: 638059298720030953
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638059319748485008
+          _name: SMall_TabelCoverBroken
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: f2637b2b48f640b4892a473626b63fc4
+            _prefabPath: Assets/Model/SMall_TabelCoverBroken.fbx
+            _frequency: 1
+            _parentId: 638059319748485008
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638059319751049958
+          _name: SM_Prop_Cup_01V2
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: dc40d9eb815f2ab43859635289d96ba5
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Models/SM_Prop_Cup_01V2.fbx
+            _frequency: 1
+            _parentId: 638059319751049958
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638059319753663637
+          _name: SM_Prop_Cup_01
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: e3dc28775b6601d4db8b54c23e2cfcf7
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Props/SM_Prop_Cup_01.prefab
+            _frequency: 1
+            _parentId: 638059319753663637
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638060209770457159
+          _name: Idele_Wind
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 43ff1b36d3434704f86660718e23db0b
+            _prefabPath: Assets/Model/Idele_Wind.fbx
+            _frequency: 1
+            _parentId: 638060209770457159
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638060209773002609
+          _name: Idele_Sun
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 8c4bb097a13ce9749bd02f5aa7f30bbf
+            _prefabPath: Assets/Model/Idele_Sun.fbx
+            _frequency: 1
+            _parentId: 638060209773002609
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638060209775435861
+          _name: Idele_Earthe
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: ab1f2dd6deeac5045bc2d4ede3117053
+            _prefabPath: Assets/Model/Idele_Earthe.fbx
+            _frequency: 1
+            _parentId: 638060209775435861
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638060209777748642
+          _name: Idele_water
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: fa624475b96191c4fb755dc4324826bf
+            _prefabPath: Assets/Model/Idele_water.fbx
+            _frequency: 1
+            _parentId: 638060209777748642
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        _name: FestifalSpot
+        _id: -8585329179082652553
         _brushCreationSettings:
           _includeSubfolders: 1
           _createLablesForEachDroppedFolder: 0
@@ -74839,894 +76324,6 @@ MonoBehaviour:
             _zoom: 1
             _targetEuler: {x: 0, y: 125, z: 0}
             _targetOffset: {x: 0, y: 0}
-          _id: 638042898933561167
-          _name: SM_Env_Big_Tree_01
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: 1847aa3ec5e8b29468675ceacfd7f8e6
-            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/Environments/SM_Env_Big_Tree_01.prefab
-            _frequency: 1
-            _parentId: 638042898933561167
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059298720030953
-          _name: Table_stone
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: b7c91481ac7f00943b4808f39b5e0513
-            _prefabPath: Assets/Model/Table_stone.fbx
-            _frequency: 1
-            _parentId: 638059298720030953
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059319748485008
-          _name: SMall_TabelCoverBroken
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: f2637b2b48f640b4892a473626b63fc4
-            _prefabPath: Assets/Model/SMall_TabelCoverBroken.fbx
-            _frequency: 1
-            _parentId: 638059319748485008
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059319751049958
-          _name: SM_Prop_Cup_01V2
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: dc40d9eb815f2ab43859635289d96ba5
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Models/SM_Prop_Cup_01V2.fbx
-            _frequency: 1
-            _parentId: 638059319751049958
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059319753663637
-          _name: SM_Prop_Cup_01
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: e3dc28775b6601d4db8b54c23e2cfcf7
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Props/SM_Prop_Cup_01.prefab
-            _frequency: 1
-            _parentId: 638059319753663637
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059396239321329
-          _name: Idele_Earthe
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: ab1f2dd6deeac5045bc2d4ede3117053
-            _prefabPath: Assets/Model/Idele_Earthe.fbx
-            _frequency: 1
-            _parentId: 638059396239321329
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638059396241830060
-          _name: Idele_water
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: fa624475b96191c4fb755dc4324826bf
-            _prefabPath: Assets/Model/Idele_water.fbx
-            _frequency: 1
-            _parentId: 638059396241830060
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        _name: FestifalSpot
-        _id: -8585329179082652553
-        _brushCreationSettings:
-          _includeSubfolders: 1
-          _createLablesForEachDroppedFolder: 0
-          _addLabelsToDroppedPrefabs: 0
-          _labelsCSV: 
-          _defaultBrushSettings:
-            _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-          _defaultThumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-      - _brushes:
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
           _id: 638043811513566024
           _name: SM_Prop_Flute_01 1
           _items:
@@ -76515,8 +77112,8 @@ MonoBehaviour:
             _zoom: 1
             _targetEuler: {x: 0, y: 125, z: 0}
             _targetOffset: {x: 0, y: 0}
-      _selectedPaletteIdx: 5
-      _selectedBrushIdx: 6
+      _selectedPaletteIdx: 0
+      _selectedBrushIdx: 28
       _showBrushName: 0
       _viewList: 0
     pinManager:
@@ -77039,7 +77636,7 @@ MonoBehaviour:
         _orientAlongBrushstroke: 0
         _additionalOrientationAngle: {x: 0, y: 0, z: 0}
         _spacingType: 0
-        _minSpacing: 0.27100894
+        _minSpacing: 1
         _randomizePositions: 1
         _randomness: 1
         _simData:
@@ -77053,7 +77650,7 @@ MonoBehaviour:
           _changeLayer: 0
           _tempLayer: 0
           _ignoreSceneColliders: 0
-        _height: 1
+        _height: 10
     _lineManager:
       _profileKeys:
       - Default
@@ -80819,16 +81416,16 @@ MonoBehaviour:
         _snappingEnabled: 0
         _snappingOn:
           x: 1
-          y: 0
-          z: 1
+          y: 1
+          z: 0
         _visibleGrid: 0
         _gridOn:
           x: 0
-          y: 1
-          z: 0
+          y: 0
+          z: 1
         _lockedGrid: 0
         _step: {x: 1, y: 1, z: 1}
-        _origin: {x: 23.769463, y: 14.200086, z: 44.837234}
+        _origin: {x: 23.769463, y: 20, z: -18.628147}
         _rotation: {x: 0, y: 0, z: 0, w: 1}
         _showPositionHandle: 1
         _showRotationHandle: 0
@@ -80839,7 +81436,7 @@ MonoBehaviour:
         _snapToRadius: 1
         _snapToCircunference: 1
         _majorLinesGap: {x: 10, y: 10, z: 10}
---- !u!114 &21
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -80867,7 +81464,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &22
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -80887,10 +81484,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 687
-    width: 1614
-    height: 352
+    x: 0
+    y: 750
+    width: 1473
+    height: 289
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -80906,24 +81503,24 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
-    - Assets/Model
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Model
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\School\Y4\Garduation\Documents\Unity\Graduation_Culture_project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 02a60000
-    m_LastClickedID: 42498
-    m_ExpandedIDs: 000000007ea5000080a5000082a5000084a5000086a5000088a500008aa500008ca500008ea5000090a5000092a5000094a5000096a5000098a500009aa500009ca500009ea50000f2a50000f8a50000faa5000002a60000
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: f2a60000
+    m_LastClickedID: 42738
+    m_ExpandedIDs: 00000000e4a60000e6a60000e8a60000eaa60000eca60000eea60000f0a60000f2a60000f4a60000f6a60000f8a60000faa60000fca60000fea6000000a7000002a7000004a7000006a7000008a700000aa700000ca700006ea7000016cc00001ecc000022cc000032cc0000be350100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -80951,7 +81548,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007ea5000080a5000082a5000084a5000086a5000088a500008aa500008ca500008ea5000090a5000092a5000094a5000096a5000098a500009aa500009ca500009ea50000a0a50000
+    m_ExpandedIDs: 00000000e4a60000e6a60000e8a60000eaa60000eca60000eea60000f0a60000f2a60000f4a60000f6a60000f8a60000faa60000fca60000fea6000000a7000002a7000004a7000006a7000008a700000aa700000ca70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -80979,7 +81576,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000062d01001a2c0100f62a01004c23010048780100fa820100b04301006ad200005412010024bf000056f9000096d50000c6a60100b009020052a60100d6b10000c88d0000e08d0000a0a300003c8e00005e6c04008e570100f25d010064290100a0300100180a03005a160300b68e0000
+    m_ExpandedInstanceIDs: c6230000062d01001a2c0100f62a01004c23010048780100fa820100b04301006ad200005412010024bf000056f9000096d50000c6a60100b009020052a60100d6b10000c88d0000e08d0000a0a300003c8e00005e6c04008e570100f25d010064290100a0300100180a03005a160300b68e0000dc2d0100588d00008acc0000bcb3000086d20000982f01007a2f0100c88e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -80995,7 +81592,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 8}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -81007,7 +81604,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 279
---- !u!114 &23
+--- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81027,9 +81624,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3535
+    x: 1474
     y: 73
-    width: 304
+    width: 445
     height: 966
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -81048,7 +81645,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &24
+--- !u!114 &28
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81068,20 +81665,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
+    x: 0
     y: 73
-    width: 256
-    height: 593
+    width: 324
+    height: 866
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 384}
-      m_SelectedIDs: d27d0000
-      m_LastClickedID: 32210
-      m_ExpandedIDs: 7eb4feff8a0bffff5438ffff32dcffffe8e2ffffd8e5ffff72f2ffff32f4ffff1afbffff446b0000be6b0000726c0000446e0000da6e00006a6f0000f86f00002e7000003a700000d4700000627100009871000066720000f6720000027300002c730000f2730000627400009a74000038770000c8780000f2780000ec790000f8790000ce7b0000587c0000b67c0000247e0000b07e0000cc7e0000f07f0000ce800000c2820000808300000e8500001c860000828700005a880000aa8900002e8a00006c8a0000ee8a0000108b0000408b0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 42ddffff
+      m_LastClickedID: -8894
+      m_ExpandedIDs: 585bfeffe2f1feffeaf1feffe62effff46c0ffff4ac0ffff4ec0ffff52c0ffff56c0ffff5ac0ffff5ec0ffff62c0ffff66c0ffff6ac0ffff6ec0ffff72c0ffff76c0ffff7ac0ffff7ec0ffff86c0ffff8ec0ffff92c0ffff96c0ffff9ac0ffff9ec0ffffa2c0ffffa6c0ffffaec0ffffb6c0ffffbac0ffffbec0ffffc2c0ffffc6c0ffffcac0ffffcec0ffffd2c0ffffd6c0ffffdac0ffffdec0ffffe2c0ffffeac0fffff2c0fffff6c0fffffac0fffffec0ffff02c1ffff06c1ffff0ac1ffff0ec1ffff12c1ffff16c1ffff1ac1ffff1ec1ffff26c1fffff0c1ffffc8c2ffffcec2ffff5cc4ffff60c4ffff64c4ffff68c4ffff6cc4ffff70c4ffff74c4ffff78c4ffff7cc4ffff80c4ffff84c4ffff88c4ffff8cc4ffff90c4ffff94c4ffff9cc4ffffe0c4ffffe4c4ffffe8c4ffffecc4fffff0c4fffff4c4fffff8c4fffffcc4ffff00c5ffff04c5ffff08c5ffff0cc5ffff10c5ffff14c5ffff18c5ffff20c5ffffc6c5ffffdec5fffffec5ffff16c6ffff28c6ffff3cc6ffff42c6ffff54c6ffff68c6ffff6ec6ffff8ac6ffff92c6ffff9ec6ffffbac6ffffc2c6ffffcec6fffff8c6ffff0ac7ffff0ec7ffff2ac7ffff66c7ffffdcc7ffff1cc8ffff6ccbffffd0cbffff36cdffff80cdffff04cfffff38d0ffff04d2ffff64d2ffffecd2fffff0d2fffff4d2fffff6d5ffffb8d8ffffbcd8ffffc0d8ffffc4d8ffffccd8ffffd0d8ffffd4d8ffffd8d8ffffe4d8ffffe8d8ffff00d9ffff04d9ffff0cd9ffff10d9ffff14d9ffff1cd9ffff20d9ffff24d9ffff28d9ffff2cd9ffff30d9ffff3cd9ffff4cd9ffff50d9ffff58d9ffff5cd9ffff60d9ffff68d9ffff6cd9ffff70d9ffff74d9ffff78d9ffff7cd9ffff80d9ffff84d9ffff88d9ffff8cd9ffffc0d9ffffc4d9ffffe4daffffe8daffffecdafffff0dafffff4dafffff8dafffffcdaffff00dbffff04dbffff08dbffff0cdbffff10dbffff14dbffff18dbffff1cdbffff24dbffff92dbffff96dbffff9adbffff9edbffffa2dbffffa8dbffffb0dbffffb4dbffffb8dbffffbcdbffffc0dbffffc6dbffffd2dbffff34dcffff9eddffffd0deffffd4deffffd8deffffdcdeffffe0deffffe4deffffe8deffffecdeffffa0e0ffff6ce2ffff70e2ffff74e2ffff78e2ffff7ce2ffff82e2ffff8ae2ffff8ee2ffff92e2ffff96e2ffff9ae2ffffa0e2fffface2ffffb4e2ffffeae4fffff2e4ffff4ee5ffff52e5ffff56e5ffff5ae5ffff5ee5ffff64e5ffff6ce5ffff70e5ffff74e5ffff78e5ffff7ce5ffff82e5ffff8ee5ffff64e7ffff28e8ffff5ce8ffff60e8ffff64e8ffff6ce8ffffb6e8ffffd4ebfffff4ebffff76ecffff84ecffff40edffff54edffffbeedffff88efffffa0efffff0ef0ffff3ef0ffff74f0ffffa8f0ffff26f1ffff74f1ffff16f2ffff1af2ffff1ef2ffff22f2ffff26f2ffff2cf2ffff34f2ffff38f2ffff3cf2ffff40f2ffff44f2ffff4af2ffff56f2ffff5ef3ffff60f3ffff68f3ffff6af3ffff6ef3ffff72f3ffff76f3ffff7af3ffffd6f3ffffdaf3ffffdef3ffffe2f3ffffe6f3ffffecf3fffff4f3fffff8f3fffffcf3ffff00f4ffff04f4ffff0af4ffff16f4ffff48f4ffffeaf4ffffa4f5ffffa2f7ffff48f9ffffd6f9fffffafafffffefaffff02fbffff06fbffff0afbffff0efbffff12fbffff1afbffff1cfbffff506b0000546b0000586b0000b46b0000b86b0000f46b0000106c00001c6c0000546c0000846c00009e6c0000b46c0000c46c0000a26d0000b26d0000c86d0000da6d0000186e00006c6e0000706e0000806e0000986e0000ae6e0000b26e0000c86e0000cc6e0000226f00003a6f0000586f0000e86f000072700000d4700000e07000000671000044710000547100006c71000074710000aa710000e47100003c7200006872000072720000767200007a7200008272000096720000ba720000e4720000ec7200001c7300003e730000467300008a7300005a7400007a740000a8740000c2740000d2740000347500003c750000467500004e7500006e750000727500007e7500008e750000f07500001a7600006e760000cc760000127700004a77000052770000567700005e770000ac770000ca770000d6770000227800003c7800006278000070780000c2780000e2780000f67800004679000050790000587900006c7900007e790000a0790000b2790000c8790000d0790000d8790000ec7900000e7a00001a7a0000847a00009c7a0000a47a0000ba7a0000ce7a0000ee7a00004c7b0000987b0000ae7b0000b27b0000cc7b0000e27b0000067c00002a7c0000387c00004c7c0000747c0000987c0000a07c0000ea7c0000f07c0000f87c0000087d00000c7d0000287d0000407d0000927d0000aa7d0000b27d0000cc7d0000f47d00002e7e0000427e0000747e0000987e0000a07e0000d07e0000d47e0000fa7e0000087f00002c7f0000507f0000547f00008c7f0000947f0000ae7f0000b27f0000ec7f00000680000042800000528000006480000088800000ee80000002810000a6810000ec810000f08100002c820000348200005a82000078820000b2820000be820000da8200002483000030830000488300006883000096830000ce830000008400001e8400002a8400004684000054840000588400005c8400006c8400008e840000f2840000fa840000088500002a8500003485000052850000708500009085000096850000b6850000ba850000c2850000de850000fc8500004e860000708600009a860000ac860000c6860000e6860000ea860000248700002c8700003c870000608700006c87000090870000a8870000da870000f0870000f48700000e880000228800003c8800004a880000568800005a8800007e880000a8880000da880000ea88000014890000368900004c89000094890000ce890000d4890000dc890000628a0000728a0000f28a0000fa8a00000e8b0000628b0000828b0000868b0000ae8b0000d68b0000da8b0000468c0000568c00002e8d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -81097,7 +81694,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 10}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -81105,7 +81702,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 07befca9b1b96e94eb511eb097b85053
---- !u!114 &25
+--- !u!114 &29
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81125,10 +81722,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2177
+    x: 325
     y: 73
-    width: 1356
-    height: 593
+    width: 1147
+    height: 866
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -81363,9 +81960,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 19.951874, y: 14.948729, z: 52.72752}
+    m_Target: {x: 61.458782, y: 23.4792, z: -37.408745}
     speed: 2
-    m_Value: {x: 19.951874, y: 14.948729, z: 52.72752}
+    m_Value: {x: 61.458782, y: 23.4792, z: -37.408745}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -81412,20 +82009,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1451464, y: -0.5272621, z: 0.09168023, w: -0.8323826}
+    m_Target: {x: 0.016065007, y: -0.6633092, z: -0.0090280585, w: -0.7493183}
     speed: 2
-    m_Value: {x: -0.14498416, y: -0.52842057, z: 0.09188228, w: -0.8314499}
+    m_Value: {x: 0.016037047, y: -0.6638364, z: -0.009044026, w: -0.74765116}
   m_Size:
-    m_Target: 1.3659109
+    m_Target: 12.124355
     speed: 2
-    m_Value: 1.3706148
+    m_Value: 12.124348
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.0930581
-    m_SpeedNormalized: 0.5442503
+    m_Speed: 0.6866008
+    m_SpeedNormalized: 0.3400004
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -81436,14 +82033,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.0021912109, y: -0.9935554, z: 0.018769244, w: -0.11226801}
+  m_LastSceneViewRotation: {x: 0.25977924, y: 0.64388734, z: -0.2463888, w: 0.67681557}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &26
+--- !u!114 &30
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81463,9 +82060,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2213
+    x: 325
     y: 73
-    width: 1525
+    width: 1147
     height: 866
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -81477,10 +82074,10 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1525, y: 845}
+  m_TargetSize: {x: 1147, y: 845}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 2
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -81492,8 +82089,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -762.5
-    m_HBaseRangeMax: 762.5
+    m_HBaseRangeMin: -573.5
+    m_HBaseRangeMax: 573.5
     m_VBaseRangeMin: -422.5
     m_VBaseRangeMax: 422.5
     m_HAllowExceedBaseRangeMin: 1
@@ -81513,29 +82110,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1525
+      width: 1147
       height: 845
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 762.5, y: 422.5}
+    m_Translation: {x: 573.5, y: 422.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -762.5
+      x: -573.5
       y: -422.5
-      width: 1525
+      width: 1147
       height: 845
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1525, y: 866}
+  m_LastWindowPixelSize: {x: 1147, y: 866}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &27
+--- !u!114 &31
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81555,10 +82152,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 687
+    x: 0
+    y: 727
     width: 1614
-    height: 352
+    height: 312
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
