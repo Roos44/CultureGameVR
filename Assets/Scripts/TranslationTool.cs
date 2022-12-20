@@ -10,7 +10,7 @@ public class TranslationTool : MonoBehaviour
     public bool isTranslating;
 
     public int playNext;
-
+    public GameObject ScaneVisual;
 
     public int timesTranslated;
 
@@ -37,12 +37,19 @@ public class TranslationTool : MonoBehaviour
             {
                 currentSound.PlayOneShot(translationClips[playNext]);
             }
-            */
-            
+            */   
         }
         else
         {
             isTranslating = false;
         }
+
+
+       // if (isScaneble == true)
+        //{
+         //   ScaneVisual.SetActive(true);
+        //}
+
+
     }
 }
