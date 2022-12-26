@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1297
-    y: 124
+    x: 1450
+    y: 140
     width: 32
-    height: 548
+    height: 541
   m_ShowMode: 0
   m_Title: Tools
   m_RootView: {fileID: 4}
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 9}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &3
@@ -66,12 +66,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 32
-    height: 548
+    height: 541
   m_MinSize: {x: 32, y: 53}
   m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -93,11 +93,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 32
-    height: 548
+    height: 541
   m_MinSize: {x: 32, y: 53}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 44795
+  controlID: 31274
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 104
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,9 +144,9 @@ MonoBehaviour:
     height: 987
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &7
@@ -166,17 +166,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 254
-    height: 623
+    width: 475
+    height: 709
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
-  - {fileID: 22}
+  - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 24}
   m_Selected: 2
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,24 +187,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 623
+    y: 709
     width: 1541
-    height: 364
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 25}
+    height: 278
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 22}
   m_Panes:
+  - {fileID: 22}
+  - {fileID: 27}
   - {fileID: 20}
-  - {fileID: 25}
-  - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 4
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +229,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1037
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -300,7 +302,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 73
+  controlID: 105
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,11 +323,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1541
-    height: 623
+    height: 709
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 74
+  controlID: 106
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -341,20 +343,149 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 254
+    x: 475
     y: 0
-    width: 1287
-    height: 623
+    width: 1066
+    height: 709
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 25}
   m_Panes:
-  - {fileID: 23}
-  - {fileID: 19}
-  - {fileID: 24}
+  - {fileID: 25}
+  - {fileID: 21}
+  - {fileID: 26}
   m_Selected: 0
   m_LastSelected: 2
 --- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 728
+    width: 1540
+    height: 257
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 782
+    width: 1540
+    height: 257
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 1107273604190974296, guid: 2d0d47dc2831e2747baa81f834fed82c, type: 2}
+    - {fileID: 1107045091363214456, guid: 3e1137daf289b734ab69d7bcbcd9a580, type: 2}
+    - {fileID: 1107344136459521052, guid: 88dfcf82d1d66b64c9f0cda05c5a2251, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.121161826
+      e01: 0
+      e02: 0
+      e03: 357.39005
+      e10: 0
+      e11: 0.121161826
+      e12: 0
+      e13: 21.05809
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.12640692
+      e01: 0
+      e02: 0
+      e03: 354.63635
+      e10: 0
+      e11: 0.12640692
+      e12: 0
+      e13: 15
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1.5693879
+      e01: 0
+      e02: 0
+      e03: -454.9759
+      e10: 0
+      e11: 1.5693879
+      e12: 0
+      e13: -744.2501
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 88dfcf82d1d66b64c9f0cda05c5a2251, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1107344136459521052, guid: 88dfcf82d1d66b64c9f0cda05c5a2251, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -374,15 +505,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1297
-    y: 124
+    x: 1450
+    y: 140
     width: 32
-    height: 527
+    height: 520
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &16
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -404,8 +535,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 253
-    height: 602
+    width: 484
+    height: 688
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -38767,6 +38898,474 @@ MonoBehaviour:
           _frequencyMode: 0
           _pattern: 1...
           _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638076556504202943
+          _name: Sphere_4
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 788c2ec596ec5d246bafb91fcde8892b
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Models/Sphere_4.fbx
+            _frequency: 1
+            _parentId: 638076556504202943
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638076556507135548
+          _name: Sphere_3
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 9fc459ef6077a3c4a94b85b5e10c84af
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Models/Sphere_3.fbx
+            _frequency: 1
+            _parentId: 638076556507135548
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638076556509904460
+          _name: Sphere_1
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 6b2ca007351981342b5ba4bb1f5aac21
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Models/Sphere_1.fbx
+            _frequency: 1
+            _parentId: 638076556509904460
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638076556512533114
+          _name: Sphere_2
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: c91691dd735f5d2489de22d7677b384f
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Models/Sphere_2.fbx
+            _frequency: 1
+            _parentId: 638076556512533114
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
         _name: FestifalSpot
         _id: -8585329179082652553
         _brushCreationSettings:
@@ -39911,7 +40510,7 @@ MonoBehaviour:
             _targetEuler: {x: 0, y: 125, z: 0}
             _targetOffset: {x: 0, y: 0}
       _selectedPaletteIdx: 0
-      _selectedBrushIdx: 5
+      _selectedBrushIdx: -1
       _showBrushName: 0
       _viewList: 0
     pinManager:
@@ -40245,7 +40844,7 @@ MonoBehaviour:
         _orientAlongBrushstroke: 0
         _additionalOrientationAngle: {x: 0, y: 0, z: 0}
         _spacingType: 0
-        _minSpacing: 0.3437004
+        _minSpacing: 1
         _randomizePositions: 1
         _randomness: 1
         _paintOnSurfaceToolSettings:
@@ -40434,7 +41033,7 @@ MonoBehaviour:
         _orientAlongBrushstroke: 0
         _additionalOrientationAngle: {x: 0, y: 0, z: 0}
         _spacingType: 0
-        _minSpacing: 0.13910031
+        _minSpacing: 1
         _randomizePositions: 1
         _randomness: 1
         _simData:
@@ -40448,7 +41047,7 @@ MonoBehaviour:
           _changeLayer: 0
           _tempLayer: 0
           _ignoreSceneColliders: 0
-        _height: 0.4
+        _height: 10
     _lineManager:
       _profileKeys:
       - Default
@@ -40538,7 +41137,7 @@ MonoBehaviour:
         _objectsOrientedAlongTheLine: 1
         _axisOrientedAlongTheLine: 0
         _spacingType: 0
-        _gapSize: 1
+        _gapSize: 0
         _spacing: 10
         _paintTool:
           _parentGlobalId: 
@@ -43299,37 +43898,37 @@ MonoBehaviour:
               _instanceId: -303784
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-1386020525
             _position: {x: -19.372208, y: 14.200086, z: 55.34488}
-            _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+            _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303818
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-964181061
             _position: {x: -19.920692, y: 14.200086, z: 56.400208}
-            _localRotation: {x: -0, y: 0.5190563, z: -0, w: 0.85474}
+            _localRotation: {x: 0, y: 0.5190563, z: 0, w: 0.85474}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303836
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-571558871
             _position: {x: -20.469162, y: 14.200086, z: 57.45552}
-            _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+            _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303854
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-934935743
             _position: {x: -21.01764, y: 14.200086, z: 58.510864}
-            _localRotation: {x: -0, y: 0.5190563, z: -0, w: 0.85474}
+            _localRotation: {x: 0, y: 0.5190563, z: 0, w: 0.85474}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303872
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-371171853
             _position: {x: -21.566116, y: 14.200086, z: 59.566193}
-            _localRotation: {x: -0, y: 0.51905704, z: -0, w: 0.85473967}
+            _localRotation: {x: 0, y: 0.51905704, z: 0, w: 0.85473967}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303890
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-1597544769
             _position: {x: -22.114601, y: 14.200086, z: 60.621506}
-            _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+            _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
             _localScale: {x: 1, y: 1, z: 1}
           _controlPoints:
           - position: {x: -19.09797, y: 14.200086, z: 54.817215}
@@ -43582,7 +44181,205 @@ MonoBehaviour:
         _axisNormalToSurface: 1
         _normal: {x: 0, y: 1, z: 0}
         _projectInNormalDir: 1
-      _sceneItems: []
+      _sceneItems:
+      - _sceneGUID: bc7f315547ff3234c81253a25e2fd3ff
+        _items:
+        - _id: 638076518076740329
+          _objectPoses:
+          - _id:
+              _instanceId: -60024
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-418441135
+            _position: {x: -30.481054, y: 14.296527, z: 4.6692767}
+            _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60048
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-129831562
+            _position: {x: -30.570044, y: 14.296527, z: 4.5905643}
+            _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60060
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1965790461
+            _position: {x: -30.659033, y: 14.296527, z: 4.5118594}
+            _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60072
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1060266282
+            _position: {x: -30.74331, y: 14.296527, z: 4.508769}
+            _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60084
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1403625317
+            _position: {x: -30.812113, y: 14.296527, z: 4.57854}
+            _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60096
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1518672958
+            _position: {x: -30.880915, y: 14.296527, z: 4.648303}
+            _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60108
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-324743424
+            _position: {x: -30.890934, y: 14.296527, z: 4.7541056}
+            _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60120
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1042959289
+            _position: {x: -30.844471, y: 14.296527, z: 4.8759317}
+            _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60132
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1842122038
+            _position: {x: -30.798008, y: 14.296527, z: 4.997758}
+            _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60144
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1804882029
+            _position: {x: -30.718102, y: 14.296527, z: 5.066667}
+            _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60156
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-991091149
+            _position: {x: -30.620583, y: 14.296527, z: 5.0721984}
+            _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60168
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1858580056
+            _position: {x: -30.523056, y: 14.296527, z: 5.0777144}
+            _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60180
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-2137994791
+            _position: {x: -30.465427, y: 14.296527, z: 5.015104}
+            _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60192
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1150453914
+            _position: {x: -30.451618, y: 14.296527, z: 4.896711}
+            _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60204
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-2140488375
+            _position: {x: -30.437817, y: 14.296527, z: 4.7782874}
+            _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+            _localScale: {x: 1, y: 1, z: 1}
+          _controlPoints:
+          - position: {x: -30.679317, y: 14.353796, z: 4.750966}
+          - position: {x: -30.444244, y: 14.352707, z: 4.6613073}
+          - position: {x: -30.668653, y: 14.187142, z: 4.5627856}
+          - position: {x: -30.907799, y: 14.251887, z: 4.724323}
+          - position: {x: -30.831192, y: 14.457467, z: 4.9226804}
+          - position: {x: -30.544699, y: 14.519776, z: 4.8837347}
+          - position: {x: -30.55645, y: 14.269924, z: 4.6120462}
+          - position: {x: -30.788227, y: 14.219515, z: 4.643554}
+          - position: {x: -30.869495, y: 14.354677, z: 4.8235016}
+          - position: {x: -30.687946, y: 14.488622, z: 4.903208}
+          - position: {x: -30.494473, y: 14.436241, z: 4.772521}
+          - position: {x: -30.209171, y: 14.351618, z: 4.5716486}
+          - position: {x: -30.209171, y: 14.351618, z: 4.5716486}
+          _settings:
+            _paintOnMeshesWithoutCollider: 0
+            _paintOnSelectedOnly: 0
+            _paintOnPalettePrefabs: 0
+            _mode: 0
+            _paralellToTheSurface: 1
+            _projectionDirection: {x: 0.24479572, y: -0.71892357, z: 0.65055656}
+            _objectsOrientedAlongTheLine: 1
+            _axisOrientedAlongTheLine: 0
+            _spacingType: 0
+            _gapSize: 0
+            _spacing: 10
+            _paintTool:
+              _parentGlobalId: 
+              _autoCreateParent: 1
+              _createSubparentPerPalette: 1
+              _createSubparentPerTool: 1
+              _createSubparentPerBrush: 0
+              _createSubparentPerPrefab: 1
+              _overwritePrefabLayer: 0
+              _layer: 0
+              _overwriteBrushProperties: 0
+              _brushSettings:
+                _surfaceDistance: 0
+                _embedInSurface: 0
+                _embedAtPivotHeight: 1
+                _localPositionOffset: {x: 0, y: 0, z: 0}
+                _rotateToTheSurface: 1
+                _eulerOffset: {x: 0, y: 0, z: 0}
+                _addRandomRotation: 0
+                _rotationFactor: 90
+                _rotateInMultiples: 0
+                _randomEulerOffset:
+                  x:
+                    _v1: 0
+                    _v2: 0
+                    _min: 0
+                    _max: 0
+                  y:
+                    _v1: 0
+                    _v2: 0
+                    _min: 0
+                    _max: 0
+                  z:
+                    _v1: 0
+                    _v2: 0
+                    _min: 0
+                    _max: 0
+                _separateScaleAxes: 0
+                _scaleMultiplier: {x: 1, y: 1, z: 1}
+                _randomScaleMultiplier: 0
+                _randomScaleMultiplierRange:
+                  x:
+                    _v1: 1
+                    _v2: 1
+                    _min: 1
+                    _max: 1
+                  y:
+                    _v1: 1
+                    _v2: 1
+                    _min: 1
+                    _max: 1
+                  z:
+                    _v1: 1
+                    _v2: 1
+                    _min: 1
+                    _max: 1
+                _thumbnailSettings:
+                  _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+                  _lightEuler: {x: 130, y: -165}
+                  _lightColor: {r: 1, g: 1, b: 1, a: 1}
+                  _lightIntensity: 1
+                  _zoom: 1
+                  _targetEuler: {x: 0, y: 125, z: 0}
+                  _targetOffset: {x: 0, y: 0}
+            _shapeType: 1
+            _sidesCount: 5
+            _axisNormalToSurface: 1
+            _normal: {x: -0.24479572, y: 0.71892357, z: -0.65055656}
+            _projectInNormalDir: 1
+          _state: 3
+          _initialBrushId: 638066281922081706
+          _radius: 0.25159338
+          _arcAngle: 360
+          _normal: {x: -0.24479572, y: 0.71892357, z: -0.65055656}
+          _firstVertexIdxAfterIntersection: 2
+          _lastVertexIdxBeforeIntersection: 1
+          _arcIntersections:
+          - {x: -30.444244, y: 14.352707, z: 4.6613073}
+          - {x: -30.444244, y: 14.352707, z: 4.6613073}
     _tilingManager:
       _profileKeys:
       - Default
@@ -44270,7 +45067,7 @@ MonoBehaviour:
         _snapToCircunference: 1
         _majorLinesGap: {x: 10, y: 10, z: 10}
   _selection: 00000000
---- !u!114 &17
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44292,8 +45089,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 253
-    height: 602
+    width: 484
+    height: 688
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -44558,7 +45355,20 @@ MonoBehaviour:
   _shapeData:
     _id: 638071299369220454
     _objectPoses: []
-    _controlPoints: []
+    _controlPoints:
+    - position: {x: -30.679317, y: 14.353796, z: 4.750966}
+    - position: {x: -30.444244, y: 14.352707, z: 4.6613073}
+    - position: {x: -30.668653, y: 14.187142, z: 4.5627856}
+    - position: {x: -30.907799, y: 14.251887, z: 4.724323}
+    - position: {x: -30.831192, y: 14.457467, z: 4.9226804}
+    - position: {x: -30.544699, y: 14.519776, z: 4.8837347}
+    - position: {x: -30.55645, y: 14.269924, z: 4.6120462}
+    - position: {x: -30.788227, y: 14.219515, z: 4.643554}
+    - position: {x: -30.869495, y: 14.354677, z: 4.8235016}
+    - position: {x: -30.687946, y: 14.488622, z: 4.903208}
+    - position: {x: -30.494473, y: 14.436241, z: 4.772521}
+    - position: {x: -30.209171, y: 14.351618, z: 4.5716486}
+    - position: {x: -30.209171, y: 14.351618, z: 4.5716486}
     _settings:
       _paintOnMeshesWithoutCollider: 0
       _paintOnSelectedOnly: 0
@@ -44639,16 +45449,16 @@ MonoBehaviour:
       _axisNormalToSurface: 1
       _normal: {x: 0, y: 1, z: 0}
       _projectInNormalDir: 1
-    _state: 0
+    _state: 2
     _initialBrushId: -1
-    _radius: 0
+    _radius: 0.25159338
     _arcAngle: 360
-    _normal: {x: 0, y: 1, z: 0}
+    _normal: {x: -0.24479572, y: 0.71892357, z: -0.65055656}
     _firstVertexIdxAfterIntersection: 2
     _lastVertexIdxBeforeIntersection: 1
     _arcIntersections:
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
+    - {x: -30.444244, y: 14.352707, z: 4.6613073}
+    - {x: -30.444244, y: 14.352707, z: 4.6613073}
   _tilingManager:
     _profileKeys:
     - Default
@@ -44972,7 +45782,205 @@ MonoBehaviour:
       _axisNormalToSurface: 1
       _normal: {x: 0, y: 1, z: 0}
       _projectInNormalDir: 1
-    _sceneItems: []
+    _sceneItems:
+    - _sceneGUID: bc7f315547ff3234c81253a25e2fd3ff
+      _items:
+      - _id: 638076518076740329
+        _objectPoses:
+        - _id:
+            _instanceId: -60024
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-418441135
+          _position: {x: -30.481054, y: 14.296527, z: 4.6692767}
+          _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60048
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-129831562
+          _position: {x: -30.570044, y: 14.296527, z: 4.5905643}
+          _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60060
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1965790461
+          _position: {x: -30.659033, y: 14.296527, z: 4.5118594}
+          _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60072
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1060266282
+          _position: {x: -30.74331, y: 14.296527, z: 4.508769}
+          _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60084
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1403625317
+          _position: {x: -30.812113, y: 14.296527, z: 4.57854}
+          _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60096
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1518672958
+          _position: {x: -30.880915, y: 14.296527, z: 4.648303}
+          _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60108
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-324743424
+          _position: {x: -30.890934, y: 14.296527, z: 4.7541056}
+          _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60120
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1042959289
+          _position: {x: -30.844471, y: 14.296527, z: 4.8759317}
+          _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60132
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1842122038
+          _position: {x: -30.798008, y: 14.296527, z: 4.997758}
+          _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60144
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1804882029
+          _position: {x: -30.718102, y: 14.296527, z: 5.066667}
+          _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60156
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-991091149
+          _position: {x: -30.620583, y: 14.296527, z: 5.0721984}
+          _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60168
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1858580056
+          _position: {x: -30.523056, y: 14.296527, z: 5.0777144}
+          _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60180
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-2137994791
+          _position: {x: -30.465427, y: 14.296527, z: 5.015104}
+          _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60192
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1150453914
+          _position: {x: -30.451618, y: 14.296527, z: 4.896711}
+          _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+          _localScale: {x: 1, y: 1, z: 1}
+        - _id:
+            _instanceId: -60204
+            _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-2140488375
+          _position: {x: -30.437817, y: 14.296527, z: 4.7782874}
+          _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+          _localScale: {x: 1, y: 1, z: 1}
+        _controlPoints:
+        - position: {x: -30.679317, y: 14.353796, z: 4.750966}
+        - position: {x: -30.444244, y: 14.352707, z: 4.6613073}
+        - position: {x: -30.668653, y: 14.187142, z: 4.5627856}
+        - position: {x: -30.907799, y: 14.251887, z: 4.724323}
+        - position: {x: -30.831192, y: 14.457467, z: 4.9226804}
+        - position: {x: -30.544699, y: 14.519776, z: 4.8837347}
+        - position: {x: -30.55645, y: 14.269924, z: 4.6120462}
+        - position: {x: -30.788227, y: 14.219515, z: 4.643554}
+        - position: {x: -30.869495, y: 14.354677, z: 4.8235016}
+        - position: {x: -30.687946, y: 14.488622, z: 4.903208}
+        - position: {x: -30.494473, y: 14.436241, z: 4.772521}
+        - position: {x: -30.209171, y: 14.351618, z: 4.5716486}
+        - position: {x: -30.209171, y: 14.351618, z: 4.5716486}
+        _settings:
+          _paintOnMeshesWithoutCollider: 0
+          _paintOnSelectedOnly: 0
+          _paintOnPalettePrefabs: 0
+          _mode: 0
+          _paralellToTheSurface: 1
+          _projectionDirection: {x: 0.24479572, y: -0.71892357, z: 0.65055656}
+          _objectsOrientedAlongTheLine: 1
+          _axisOrientedAlongTheLine: 0
+          _spacingType: 0
+          _gapSize: 0
+          _spacing: 10
+          _paintTool:
+            _parentGlobalId: 
+            _autoCreateParent: 1
+            _createSubparentPerPalette: 1
+            _createSubparentPerTool: 1
+            _createSubparentPerBrush: 0
+            _createSubparentPerPrefab: 1
+            _overwritePrefabLayer: 0
+            _layer: 0
+            _overwriteBrushProperties: 0
+            _brushSettings:
+              _surfaceDistance: 0
+              _embedInSurface: 0
+              _embedAtPivotHeight: 1
+              _localPositionOffset: {x: 0, y: 0, z: 0}
+              _rotateToTheSurface: 1
+              _eulerOffset: {x: 0, y: 0, z: 0}
+              _addRandomRotation: 0
+              _rotationFactor: 90
+              _rotateInMultiples: 0
+              _randomEulerOffset:
+                x:
+                  _v1: 0
+                  _v2: 0
+                  _min: 0
+                  _max: 0
+                y:
+                  _v1: 0
+                  _v2: 0
+                  _min: 0
+                  _max: 0
+                z:
+                  _v1: 0
+                  _v2: 0
+                  _min: 0
+                  _max: 0
+              _separateScaleAxes: 0
+              _scaleMultiplier: {x: 1, y: 1, z: 1}
+              _randomScaleMultiplier: 0
+              _randomScaleMultiplierRange:
+                x:
+                  _v1: 1
+                  _v2: 1
+                  _min: 1
+                  _max: 1
+                y:
+                  _v1: 1
+                  _v2: 1
+                  _min: 1
+                  _max: 1
+                z:
+                  _v1: 1
+                  _v2: 1
+                  _min: 1
+                  _max: 1
+              _thumbnailSettings:
+                _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+                _lightEuler: {x: 130, y: -165}
+                _lightColor: {r: 1, g: 1, b: 1, a: 1}
+                _lightIntensity: 1
+                _zoom: 1
+                _targetEuler: {x: 0, y: 125, z: 0}
+                _targetOffset: {x: 0, y: 0}
+          _shapeType: 1
+          _sidesCount: 5
+          _axisNormalToSurface: 1
+          _normal: {x: -0.24479572, y: 0.71892357, z: -0.65055656}
+          _projectInNormalDir: 1
+        _state: 3
+        _initialBrushId: 638066281922081706
+        _radius: 0.25159338
+        _arcAngle: 360
+        _normal: {x: -0.24479572, y: 0.71892357, z: -0.65055656}
+        _firstVertexIdxAfterIntersection: 2
+        _lastVertexIdxBeforeIntersection: 1
+        _arcIntersections:
+        - {x: -30.444244, y: 14.352707, z: 4.6613073}
+        - {x: -30.444244, y: 14.352707, z: 4.6613073}
   _lineManager:
     _profileKeys:
     - Default
@@ -45062,7 +46070,7 @@ MonoBehaviour:
       _objectsOrientedAlongTheLine: 1
       _axisOrientedAlongTheLine: 0
       _spacingType: 0
-      _gapSize: 1
+      _gapSize: 0
       _spacing: 10
       _paintTool:
         _parentGlobalId: 
@@ -47823,37 +48831,37 @@ MonoBehaviour:
             _instanceId: -303784
             _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-1386020525
           _position: {x: -19.372208, y: 14.200086, z: 55.34488}
-          _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+          _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
           _localScale: {x: 1, y: 1, z: 1}
         - _id:
             _instanceId: -303818
             _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-964181061
           _position: {x: -19.920692, y: 14.200086, z: 56.400208}
-          _localRotation: {x: -0, y: 0.5190563, z: -0, w: 0.85474}
+          _localRotation: {x: 0, y: 0.5190563, z: 0, w: 0.85474}
           _localScale: {x: 1, y: 1, z: 1}
         - _id:
             _instanceId: -303836
             _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-571558871
           _position: {x: -20.469162, y: 14.200086, z: 57.45552}
-          _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+          _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
           _localScale: {x: 1, y: 1, z: 1}
         - _id:
             _instanceId: -303854
             _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-934935743
           _position: {x: -21.01764, y: 14.200086, z: 58.510864}
-          _localRotation: {x: -0, y: 0.5190563, z: -0, w: 0.85474}
+          _localRotation: {x: 0, y: 0.5190563, z: 0, w: 0.85474}
           _localScale: {x: 1, y: 1, z: 1}
         - _id:
             _instanceId: -303872
             _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-371171853
           _position: {x: -21.566116, y: 14.200086, z: 59.566193}
-          _localRotation: {x: -0, y: 0.51905704, z: -0, w: 0.85473967}
+          _localRotation: {x: 0, y: 0.51905704, z: 0, w: 0.85473967}
           _localScale: {x: 1, y: 1, z: 1}
         - _id:
             _instanceId: -303890
             _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-1597544769
           _position: {x: -22.114601, y: 14.200086, z: 60.621506}
-          _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+          _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
           _localScale: {x: 1, y: 1, z: 1}
         _controlPoints:
         - position: {x: -19.09797, y: 14.200086, z: 54.817215}
@@ -47942,7 +48950,7 @@ MonoBehaviour:
         _state: 3
         _initialBrushId: 638042948520912531
         _closed: 0
---- !u!114 &18
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47963,9 +48971,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 696
+    y: 782
     width: 1540
-    height: 343
+    height: 257
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -86327,6 +87335,474 @@ MonoBehaviour:
           _frequencyMode: 0
           _pattern: 1...
           _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638076556504202943
+          _name: Sphere_4
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 788c2ec596ec5d246bafb91fcde8892b
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Models/Sphere_4.fbx
+            _frequency: 1
+            _parentId: 638076556504202943
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638076556507135548
+          _name: Sphere_3
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 9fc459ef6077a3c4a94b85b5e10c84af
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Models/Sphere_3.fbx
+            _frequency: 1
+            _parentId: 638076556507135548
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638076556509904460
+          _name: Sphere_1
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 6b2ca007351981342b5ba4bb1f5aac21
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Models/Sphere_1.fbx
+            _frequency: 1
+            _parentId: 638076556509904460
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638076556512533114
+          _name: Sphere_2
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: c91691dd735f5d2489de22d7677b384f
+            _prefabPath: Assets/Assetpacks/PolygonFantasyKingdom/Models/Sphere_2.fbx
+            _frequency: 1
+            _parentId: 638076556512533114
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
         _name: FestifalSpot
         _id: -8585329179082652553
         _brushCreationSettings:
@@ -87471,7 +88947,7 @@ MonoBehaviour:
             _targetEuler: {x: 0, y: 125, z: 0}
             _targetOffset: {x: 0, y: 0}
       _selectedPaletteIdx: 0
-      _selectedBrushIdx: 5
+      _selectedBrushIdx: -1
       _showBrushName: 0
       _viewList: 0
     pinManager:
@@ -87805,7 +89281,7 @@ MonoBehaviour:
         _orientAlongBrushstroke: 0
         _additionalOrientationAngle: {x: 0, y: 0, z: 0}
         _spacingType: 0
-        _minSpacing: 0.3437004
+        _minSpacing: 1
         _randomizePositions: 1
         _randomness: 1
         _paintOnSurfaceToolSettings:
@@ -87994,7 +89470,7 @@ MonoBehaviour:
         _orientAlongBrushstroke: 0
         _additionalOrientationAngle: {x: 0, y: 0, z: 0}
         _spacingType: 0
-        _minSpacing: 0.13910031
+        _minSpacing: 1
         _randomizePositions: 1
         _randomness: 1
         _simData:
@@ -88008,7 +89484,7 @@ MonoBehaviour:
           _changeLayer: 0
           _tempLayer: 0
           _ignoreSceneColliders: 0
-        _height: 0.4
+        _height: 10
     _lineManager:
       _profileKeys:
       - Default
@@ -88098,7 +89574,7 @@ MonoBehaviour:
         _objectsOrientedAlongTheLine: 1
         _axisOrientedAlongTheLine: 0
         _spacingType: 0
-        _gapSize: 1
+        _gapSize: 0
         _spacing: 10
         _paintTool:
           _parentGlobalId: 
@@ -90859,37 +92335,37 @@ MonoBehaviour:
               _instanceId: -303784
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-1386020525
             _position: {x: -19.372208, y: 14.200086, z: 55.34488}
-            _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+            _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303818
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-964181061
             _position: {x: -19.920692, y: 14.200086, z: 56.400208}
-            _localRotation: {x: -0, y: 0.5190563, z: -0, w: 0.85474}
+            _localRotation: {x: 0, y: 0.5190563, z: 0, w: 0.85474}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303836
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-571558871
             _position: {x: -20.469162, y: 14.200086, z: 57.45552}
-            _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+            _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303854
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-934935743
             _position: {x: -21.01764, y: 14.200086, z: 58.510864}
-            _localRotation: {x: -0, y: 0.5190563, z: -0, w: 0.85474}
+            _localRotation: {x: 0, y: 0.5190563, z: 0, w: 0.85474}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303872
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-371171853
             _position: {x: -21.566116, y: 14.200086, z: 59.566193}
-            _localRotation: {x: -0, y: 0.51905704, z: -0, w: 0.85473967}
+            _localRotation: {x: 0, y: 0.51905704, z: 0, w: 0.85473967}
             _localScale: {x: 1, y: 1, z: 1}
           - _id:
               _instanceId: -303890
               _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-181432-1597544769
             _position: {x: -22.114601, y: 14.200086, z: 60.621506}
-            _localRotation: {x: -0, y: 0.51905763, z: -0, w: 0.85473925}
+            _localRotation: {x: 0, y: 0.51905763, z: 0, w: 0.85473925}
             _localScale: {x: 1, y: 1, z: 1}
           _controlPoints:
           - position: {x: -19.09797, y: 14.200086, z: 54.817215}
@@ -91142,7 +92618,205 @@ MonoBehaviour:
         _axisNormalToSurface: 1
         _normal: {x: 0, y: 1, z: 0}
         _projectInNormalDir: 1
-      _sceneItems: []
+      _sceneItems:
+      - _sceneGUID: bc7f315547ff3234c81253a25e2fd3ff
+        _items:
+        - _id: 638076518076740329
+          _objectPoses:
+          - _id:
+              _instanceId: -60024
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-418441135
+            _position: {x: -30.481054, y: 14.296527, z: 4.6692767}
+            _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60048
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-129831562
+            _position: {x: -30.570044, y: 14.296527, z: 4.5905643}
+            _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60060
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1965790461
+            _position: {x: -30.659033, y: 14.296527, z: 4.5118594}
+            _localRotation: {x: 0, y: -0.3542211, z: 0, w: 0.9351617}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60072
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1060266282
+            _position: {x: -30.74331, y: 14.296527, z: 4.508769}
+            _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60084
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1403625317
+            _position: {x: -30.812113, y: 14.296527, z: 4.57854}
+            _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60096
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1518672958
+            _position: {x: -30.880915, y: 14.296527, z: 4.648303}
+            _localRotation: {x: 0, y: 0.38587785, z: 0, w: 0.9225499}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60108
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-324743424
+            _position: {x: -30.890934, y: 14.296527, z: 4.7541056}
+            _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60120
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1042959289
+            _position: {x: -30.844471, y: 14.296527, z: 4.8759317}
+            _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60132
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1842122038
+            _position: {x: -30.798008, y: 14.296527, z: 4.997758}
+            _localRotation: {x: 0, y: 0.82351834, z: 0, w: 0.56728965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60144
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1804882029
+            _position: {x: -30.718102, y: 14.296527, z: 5.066667}
+            _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60156
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-991091149
+            _position: {x: -30.620583, y: 14.296527, z: 5.0721984}
+            _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60168
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1858580056
+            _position: {x: -30.523056, y: 14.296527, z: 5.0777144}
+            _localRotation: {x: 0, y: 0.99959946, z: 0, w: 0.0283012}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60180
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-2137994791
+            _position: {x: -30.465427, y: 14.296527, z: 5.015104}
+            _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60192
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-1150453914
+            _position: {x: -30.451618, y: 14.296527, z: 4.896711}
+            _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+            _localScale: {x: 1, y: 1, z: 1}
+          - _id:
+              _instanceId: -60204
+              _globalObjId: GlobalObjectId_V1-2-bc7f315547ff3234c81253a25e2fd3ff-1817285382117860-2140488375
+            _position: {x: -30.437817, y: 14.296527, z: 4.7782874}
+            _localRotation: {x: 0, y: -0.7469355, z: 0, w: 0.6648965}
+            _localScale: {x: 1, y: 1, z: 1}
+          _controlPoints:
+          - position: {x: -30.679317, y: 14.353796, z: 4.750966}
+          - position: {x: -30.444244, y: 14.352707, z: 4.6613073}
+          - position: {x: -30.668653, y: 14.187142, z: 4.5627856}
+          - position: {x: -30.907799, y: 14.251887, z: 4.724323}
+          - position: {x: -30.831192, y: 14.457467, z: 4.9226804}
+          - position: {x: -30.544699, y: 14.519776, z: 4.8837347}
+          - position: {x: -30.55645, y: 14.269924, z: 4.6120462}
+          - position: {x: -30.788227, y: 14.219515, z: 4.643554}
+          - position: {x: -30.869495, y: 14.354677, z: 4.8235016}
+          - position: {x: -30.687946, y: 14.488622, z: 4.903208}
+          - position: {x: -30.494473, y: 14.436241, z: 4.772521}
+          - position: {x: -30.209171, y: 14.351618, z: 4.5716486}
+          - position: {x: -30.209171, y: 14.351618, z: 4.5716486}
+          _settings:
+            _paintOnMeshesWithoutCollider: 0
+            _paintOnSelectedOnly: 0
+            _paintOnPalettePrefabs: 0
+            _mode: 0
+            _paralellToTheSurface: 1
+            _projectionDirection: {x: 0.24479572, y: -0.71892357, z: 0.65055656}
+            _objectsOrientedAlongTheLine: 1
+            _axisOrientedAlongTheLine: 0
+            _spacingType: 0
+            _gapSize: 0
+            _spacing: 10
+            _paintTool:
+              _parentGlobalId: 
+              _autoCreateParent: 1
+              _createSubparentPerPalette: 1
+              _createSubparentPerTool: 1
+              _createSubparentPerBrush: 0
+              _createSubparentPerPrefab: 1
+              _overwritePrefabLayer: 0
+              _layer: 0
+              _overwriteBrushProperties: 0
+              _brushSettings:
+                _surfaceDistance: 0
+                _embedInSurface: 0
+                _embedAtPivotHeight: 1
+                _localPositionOffset: {x: 0, y: 0, z: 0}
+                _rotateToTheSurface: 1
+                _eulerOffset: {x: 0, y: 0, z: 0}
+                _addRandomRotation: 0
+                _rotationFactor: 90
+                _rotateInMultiples: 0
+                _randomEulerOffset:
+                  x:
+                    _v1: 0
+                    _v2: 0
+                    _min: 0
+                    _max: 0
+                  y:
+                    _v1: 0
+                    _v2: 0
+                    _min: 0
+                    _max: 0
+                  z:
+                    _v1: 0
+                    _v2: 0
+                    _min: 0
+                    _max: 0
+                _separateScaleAxes: 0
+                _scaleMultiplier: {x: 1, y: 1, z: 1}
+                _randomScaleMultiplier: 0
+                _randomScaleMultiplierRange:
+                  x:
+                    _v1: 1
+                    _v2: 1
+                    _min: 1
+                    _max: 1
+                  y:
+                    _v1: 1
+                    _v2: 1
+                    _min: 1
+                    _max: 1
+                  z:
+                    _v1: 1
+                    _v2: 1
+                    _min: 1
+                    _max: 1
+                _thumbnailSettings:
+                  _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+                  _lightEuler: {x: 130, y: -165}
+                  _lightColor: {r: 1, g: 1, b: 1, a: 1}
+                  _lightIntensity: 1
+                  _zoom: 1
+                  _targetEuler: {x: 0, y: 125, z: 0}
+                  _targetOffset: {x: 0, y: 0}
+            _shapeType: 1
+            _sidesCount: 5
+            _axisNormalToSurface: 1
+            _normal: {x: -0.24479572, y: 0.71892357, z: -0.65055656}
+            _projectInNormalDir: 1
+          _state: 3
+          _initialBrushId: 638066281922081706
+          _radius: 0.25159338
+          _arcAngle: 360
+          _normal: {x: -0.24479572, y: 0.71892357, z: -0.65055656}
+          _firstVertexIdxAfterIntersection: 2
+          _lastVertexIdxBeforeIntersection: 1
+          _arcIntersections:
+          - {x: -30.444244, y: 14.352707, z: 4.6613073}
+          - {x: -30.444244, y: 14.352707, z: 4.6613073}
     _tilingManager:
       _profileKeys:
       - Default
@@ -91829,7 +93503,7 @@ MonoBehaviour:
         _snapToRadius: 1
         _snapToCircunference: 1
         _majorLinesGap: {x: 10, y: 10, z: 10}
---- !u!114 &19
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91857,7 +93531,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &20
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91878,9 +93552,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 696
+    y: 782
     width: 1540
-    height: 343
+    height: 257
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -91898,22 +93572,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/House
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assetpacks/PolygonFantasyKingdom/Prefabs/House
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\School\Y4\Garduation\Documents\Unity\Graduation_Culture_project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 512}
-    m_SelectedIDs: 74c50100
-    m_LastClickedID: 116084
-    m_ExpandedIDs: 0000000042b0000044b0000046b0000048b000004ab000004cb000004eb0000050b0000052b0000054b0000056b0000058b000005ab000005cb0000060b0000062b0000064b0000066b0000068b000006ab000000ab4000020b400006a87010072870100768701007c8701007e0e0600
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 78c60000
+    m_LastClickedID: 50808
+    m_ExpandedIDs: 000000006ac600006cc600006ec6000070c6000072c6000074c6000076c6000078c600007ac600007cc600007ec6000080c6000082c6000084c6000086c6000088c600008ac600008cc600008ec6000034c800003ac800004ec80000a8c800006acb000010750200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -91941,7 +93615,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000042b0000044b0000046b0000048b000004ab000004cb000004eb0000050b0000052b0000054b0000056b0000058b000005ab000005cb000005eb0000060b0000062b0000064b0000066b0000068b000006ab00000
+    m_ExpandedIDs: 000000006ac600006cc600006ec6000070c6000072c6000074c6000076c6000078c600007ac600007cc600007ec6000080c6000082c6000084c6000086c6000088c600008ac600008cc600008ec60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -91966,10 +93640,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 74c50100
-    m_LastClickedInstanceID: 116084
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000a4940000a2520100d29500000868010008670100e89900003069010048b00000caaf0000da610100fe0101004e260100c8b70000b49500009cb20000e696000066580100423402001c1b0300869f0200bcb90000549b000078970000
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000a4940000a2520100d29500000868010008670100e89900003069010048b00000caaf0000da610100fe0101004e260100c8b70000b49500009cb20000e696000066580100423402001c1b0300869f0200bcb90000549b000078970000f29a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -91993,11 +93667,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 660}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 185
---- !u!114 &21
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92028,7 +93702,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -92038,7 +93712,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &22
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92060,8 +93734,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 253
-    height: 602
+    width: 474
+    height: 688
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -92069,23 +93743,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 90e4f9ff
-      m_LastClickedID: -400240
-      m_ExpandedIDs: 0221f8fff66df8ff966ef8ff3e71f8ff7a90f8ffdaf5f8ff2e31f9ffd64ef9ffaa37faff7238faffd43cfaffdc41fafffe59faffc45bfaff3a5cfaff7cb8faffb2e1faff7823fbff1082fbffcc90fbffb263fcff6264fcff8a64fcff9464fcffb264fcff46edfcffe2fafcffd2fefcffd800fdff1801fdffee07fdff020cfdffd20efdffae10fdff2071fdffa424feff6825feff9852feffc05efeff3a5ffeff9e5ffeff7a93feff5cf8feffea21ffff8e43ffffa4b8ffffa8b8ffffc6b8ffffceb8ffff6cbbffff8ebdffffa8bdffff5cbfffff06c0ffffa6c2ffff94c3ffffbec3ffffd4c7ffff34c9ffff82caffffc6caffff1accffff16d4ffffa2d4ffff8cd6ffff9ad6fffffadaffff9cddffffacddffff2ce0ffff34e0fffff0e0ffff8ae1ffff2ee3ffff4ce3ffffd2e4ffff7ce6fffface8ffffb2ecffffcaecffff80edfffffcedffff24efffff36f0ffff82f1ffff8cf1ffff90f1ffff94f1ffff98f1ffff9cf1ffff40f2ffff7ef2ffff2ef3ffffa6f6fffff4f7ffff72faffff1cfbffff386b0000466b00005c6b0000606b0000646b00009a6b0000dc6b0000e06b0000e46b0000486c0000546c00006a6c0000726c00008a6c00009a6c0000be6c0000fa6c00001e6d00002c6d00005a6d0000686d00001a6e00005c6e00006c6e0000886e0000926e0000a86e0000ca6e0000f26e00000c6f0000106f00004a6f0000566f00005a6f00007c6f0000966f00009a6f0000b26f0000ba6f0000be6f0000c66f0000e06f0000ec6f0000487000006a700000967000001071000044710000767100008c71000090710000b8710000bc710000c0710000c6710000267200004072000072720000ae720000c8720000da720000f4720000fc7200003a7300007c730000d0730000047400000e740000127400001c740000227400005e7400008a74000096740000bc740000ce740000d2740000f07400000e750000127500001a750000567500005e75000086750000e2750000007600004876000068760000827600009e760000bc760000cc760000227700003e77000046770000527700005a770000767700007a770000827700008e7700009e7700000c780000207800004078000088780000dc78000016790000b2790000b6790000c27900000e7a0000227a0000447a0000507a0000a67a0000bc7a0000cc7a0000f47a00000a7b00001e7b0000787b00009c7b0000b07b0000ca7b0000dc7b0000067c0000107c0000187c00004a7c00006c7c0000867c0000987c0000a87c0000b07c0000b87c0000ee7c0000fe7c00000a7d00007e7d0000867d00009e7d0000a67d0000bc7d0000d67d0000de7d0000027e0000067e0000127e00004a7e00007e7e0000d47e0000d87e0000107f0000207f00002c7f00006e7f0000947f0000a27f0000b27f0000b67f0000d07f0000ee7f00001e80000026800000828000008e80000096800000a6800000da800000e2800000e6800000568100006481000082810000a0810000a4810000b6810000d2810000248200003c82000076820000a6820000b2820000ee820000f28200001c830000228300002a830000368300004a8300005a8300006e83000082830000ba830000da830000de830000ec830000288400004684000054840000928400009a840000a2840000b4840000e4840000108500001c85000070850000b4850000e68500001c8600003a8600009486000098860000e2860000ea860000168700002287000040870000448700007c8700008887000098870000b88700001e8800002a880000428800004c8800006088000094880000ca880000f288000002890000268900003a89000058890000668900006a89000080890000a2890000f4890000088a0000108a00001e8a0000308a00006e8a00009a8a0000c48a0000c88a0000ec8a00000a8b0000248b0000308b0000388b0000508b0000788b0000c28b0000d28b0000ee8b0000f48b0000408c00005a8c00008c8c0000908c0000968c0000aa8c0000da8c0000108d0000208d0000468d0000668d00006a8d00008a8d0000a88d0000c88d0000cc8d0000e68d0000fa8d00001a8e0000288e0000348e00005c8e0000c28e0000ce8e0000d28e0000128f0000348f0000468f00008e8f0000b28f0000d08f0000d68f0000de8f00002690000054900000829000008a9000009e900000a6900000ee9000001c910000249100003e9100009c910000be910000c4910000ee9100001e9200003a92000060920000a2920000b6920000ba920000f0920000c6930000fe93000068940000
+      m_SelectedIDs: 7a820000
+      m_LastClickedID: 33402
+      m_ExpandedIDs: 228bfcff2a8bfcff6292fcff96f8fcff9282fdff4099fdff16bdfdfff4bdfdff54d7fdff0ceffdff6af5fdff8cbdfeff96bdfeff7a15ffff7e15ffff1cfbffff646b0000e86b0000526c00002a6e0000fe6f0000a6720000a47300007a740000887400004477000058770000e6770000147a0000b27b0000887d0000628000001c81000098820000d4820000f0820000028600000c87000012880000468800007e8a0000b08a0000fe8a00007e8b0000c48b0000b28d0000c2900000cc920000f0920000f4920000189300008e930000dc930000ec930000b6940000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: House_Small-White (1)
-        m_OriginalName: House_Small-White (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -395264
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -92095,7 +93769,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 7f1a839bf539cfd498f89a9e5610e5a7
---- !u!114 &23
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92115,10 +93789,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 254
+    x: 475
     y: 73
-    width: 1285
-    height: 602
+    width: 1064
+    height: 688
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -92353,9 +94027,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -31.793194, y: 18.064528, z: -5.07477}
+    m_Target: {x: -0.30653614, y: 16.808126, z: -17.638996}
     speed: 2
-    m_Value: {x: -31.793194, y: 18.064528, z: -5.07477}
+    m_Value: {x: -0.30653608, y: 16.808126, z: -17.638996}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -92394,7 +94068,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -92402,13 +94076,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.15450668, y: 0.2620444, z: -0.056675136, w: 0.95106}
+    m_Target: {x: 0.09621838, y: -0.58414763, z: 0.037889615, w: 0.80545163}
     speed: 2
-    m_Value: {x: 0.15305956, y: 0.2620942, z: -0.056274306, w: 0.95116377}
+    m_Value: {x: 0.09859994, y: -0.5838344, z: 0.039630078, w: 0.8048881}
   m_Size:
-    m_Target: 0.7922971
+    m_Target: 16.563538
     speed: 2
-    m_Value: 0.8296305
+    m_Value: 16.564049
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -92426,14 +94100,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.1560164, y: 0.6624212, z: -0.12490206, w: -0.72212553}
+  m_LastSceneViewRotation: {x: 0.11401222, y: -0.81175196, z: 0.09321763, w: 0.5656735}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &24
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92453,10 +94127,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 324
+    x: 485
     y: 73
-    width: 1247
-    height: 476
+    width: 1054
+    height: 289
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -92467,7 +94141,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1247, y: 455}
+  m_TargetSize: {x: 1054, y: 268}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -92482,10 +94156,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -623.5
-    m_HBaseRangeMax: 623.5
-    m_VBaseRangeMin: -227.5
-    m_VBaseRangeMax: 227.5
+    m_HBaseRangeMin: -527
+    m_HBaseRangeMax: 527
+    m_VBaseRangeMin: -134
+    m_VBaseRangeMax: 134
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -92503,29 +94177,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1247
-      height: 455
+      width: 1054
+      height: 268
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 623.5, y: 227.5}
+    m_Translation: {x: 527, y: 134}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -623.5
-      y: -227.5
-      width: 1247
-      height: 455
+      x: -527
+      y: -134
+      width: 1054
+      height: 268
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1247, y: 476}
+  m_LastWindowPixelSize: {x: 1054, y: 289}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &25
+--- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
