@@ -8,13 +8,13 @@ public class TranslatableObject : MonoBehaviour
     //public int audioClipNumber;
     public AudioClip[] clipsToPlay;
     public bool scannable;
-    //public bool isScaneble;
+    public bool isScaneble;
 
     // Start is called before the first frame update
     void Start()
     {
         scannable = true;
-        //isScaneble = false;
+        isScaneble = false;
 
 
     }
@@ -22,7 +22,7 @@ public class TranslatableObject : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && other.gameObject.GetComponent<TranslationTool>().isTranslating)
         {
-            //isScaneble = true;
+            isScaneble = true;
             if (scannable)
             {
                 other.gameObject.GetComponent<TranslationTool>().timesTranslated++;
@@ -46,11 +46,15 @@ public class TranslatableObject : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        other.gameObject.GetComponent<TranslationTool>().scanVisual = true;
+    }
 
-  //  private void OnTriggerExit(Collider other)
-   // {
-   //     isScaneble = false;
-   // }
+    private void OnTriggerExit(Collider other)
+    {
+        other.gameObject.GetComponent<TranslationTool>().scanVisual = false;
+    }
 
     // Update is called once per frame
     void Update()

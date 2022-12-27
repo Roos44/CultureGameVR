@@ -141,6 +141,9 @@ ModelImporter:
   - first:
       137: 13700000
     second: Mesh
+  - first:
+      74: 1433558805725586491
+    second: Idle_A (1)
   externalObjects: {}
   materials:
     materialImportMode: 1

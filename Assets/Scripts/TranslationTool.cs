@@ -10,9 +10,11 @@ public class TranslationTool : MonoBehaviour
     public bool isTranslating;
 
     public int playNext;
-    public GameObject ScaneVisual;
 
+    public bool scanVisual;
+    public GameObject scanningObjectIcon;
     public int timesTranslated;
+
 
     
 
@@ -21,6 +23,8 @@ public class TranslationTool : MonoBehaviour
     void Start()
     {
         isTranslating = false;
+        scanVisual = false;
+        scanningObjectIcon.SetActive(false);
     }
 
   
@@ -28,6 +32,17 @@ public class TranslationTool : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (scanVisual)
+        {
+            //Do Visual Line or TUrn off / on
+            scanningObjectIcon.SetActive(true);
+        }
+        else
+        {
+            scanningObjectIcon.SetActive(false);
+        }
+        
+        
         //Button Two = B button on Right Controller
         if (OVRInput.GetDown(OVRInput.Button.Two))
         {
@@ -45,10 +60,7 @@ public class TranslationTool : MonoBehaviour
         }
 
 
-       // if (isScaneble == true)
-        //{
-         //   ScaneVisual.SetActive(true);
-        //}
+     
 
 
     }
