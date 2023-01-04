@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,15 +64,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1392
+    x: 1526
     y: 0
-    width: 528
+    width: 394
     height: 987
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -92,15 +92,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 365
-    height: 502
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+    width: 269
+    height: 810
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 13}
-  - {fileID: 12}
+  - {fileID: 19}
+  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &5
@@ -119,18 +119,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 502
-    width: 1392
-    height: 485
+    y: 810
+    width: 1526
+    height: 177
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 20}
-  - {fileID: 14}
+  - {fileID: 17}
+  - {fileID: 22}
+  - {fileID: 16}
+  - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 3
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,12 +222,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1392
+    width: 1526
     height: 987
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 77
+  controlID: 107
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,12 +247,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1392
-    height: 502
+    width: 1526
+    height: 810
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 78
+  controlID: 108
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,19 +268,132 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 365
+    x: 269
     y: 0
-    width: 1027
-    height: 502
+    width: 1257
+    height: 810
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
+  - {fileID: 20}
+  - {fileID: 12}
+  - {fileID: 21}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 269
+    y: 73
+    width: 1255
+    height: 400
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -5847137383513175097, guid: 9bf643ff88536d444b6059a19bfae137, type: 2}
+    - {fileID: 3920134551079377541, guid: 16438902a88818b4b86358d5f34ef5f1, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 16438902a88818b4b86358d5f34ef5f1, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 3920134551079377541, guid: 16438902a88818b4b86358d5f34ef5f1, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 494
+    width: 1525
+    height: 545
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 1115412
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4149,7 +4263,7 @@ MonoBehaviour:
         _state: 3
         _initialBrushId: 638042948520912531
         _closed: 0
---- !u!114 &13
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4169,10 +4283,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
-    width: 364
-    height: 523
+    x: 1920
+    y: 111
+    width: 234
+    height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -4189,6 +4303,426 @@ MonoBehaviour:
     _unsavedChangesAction: 0
     _paletteManager:
       _paletteData:
+      - _brushes:
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638043867886438567
+          _name: SM_Env_Cliff_Curve_02
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: f019e2eb8aafd5d4d8d29eb3a8ef2074
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Curve_02.prefab
+            _frequency: 1
+            _parentId: 638043867886438567
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638043867889291060
+          _name: SM_Env_Cliff_Straight_01
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 8d9d436bff30b474b91a12eed76d1548
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Straight_01.prefab
+            _frequency: 1
+            _parentId: 638043867889291060
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638043867891918318
+          _name: SM_Env_Cliff_Straight_02
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 1c8c6bed3438b9141b6c6e2eb548b815
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Straight_02.prefab
+            _frequency: 1
+            _parentId: 638043867891918318
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        _name: Mountain
+        _id: -8585328205715849229
+        _brushCreationSettings:
+          _includeSubfolders: 1
+          _createLablesForEachDroppedFolder: 0
+          _addLabelsToDroppedPrefabs: 0
+          _labelsCSV: 
+          _defaultBrushSettings:
+            _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+          _defaultThumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
       - _brushes:
         - _surfaceDistance: 0
           _embedInSurface: 0
@@ -43842,428 +44376,8 @@ MonoBehaviour:
             _zoom: 1
             _targetEuler: {x: 0, y: 125, z: 0}
             _targetOffset: {x: 0, y: 0}
-      - _brushes:
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638043867886438567
-          _name: SM_Env_Cliff_Curve_02
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: f019e2eb8aafd5d4d8d29eb3a8ef2074
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Curve_02.prefab
-            _frequency: 1
-            _parentId: 638043867886438567
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638043867889291060
-          _name: SM_Env_Cliff_Straight_01
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: 8d9d436bff30b474b91a12eed76d1548
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Straight_01.prefab
-            _frequency: 1
-            _parentId: 638043867889291060
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638043867891918318
-          _name: SM_Env_Cliff_Straight_02
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: 1c8c6bed3438b9141b6c6e2eb548b815
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Straight_02.prefab
-            _frequency: 1
-            _parentId: 638043867891918318
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        _name: Mountain
-        _id: -8585328205715849229
-        _brushCreationSettings:
-          _includeSubfolders: 1
-          _createLablesForEachDroppedFolder: 0
-          _addLabelsToDroppedPrefabs: 0
-          _labelsCSV: 
-          _defaultBrushSettings:
-            _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-          _defaultThumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
       _selectedPaletteIdx: 0
-      _selectedBrushIdx: 5
+      _selectedBrushIdx: 0
       _showBrushName: 0
       _viewList: 0
     pinManager:
@@ -48820,7 +48934,7 @@ MonoBehaviour:
         _snapToCircunference: 1
         _majorLinesGap: {x: 10, y: 10, z: 10}
   _selection: 00000000
---- !u!114 &14
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48840,10 +48954,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 617
-    width: 1391
-    height: 422
+    x: 1920
+    y: 672
+    width: 1334
+    height: 375
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -48860,6 +48974,426 @@ MonoBehaviour:
     _unsavedChangesAction: 0
     _paletteManager:
       _paletteData:
+      - _brushes:
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638043867886438567
+          _name: SM_Env_Cliff_Curve_02
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: f019e2eb8aafd5d4d8d29eb3a8ef2074
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Curve_02.prefab
+            _frequency: 1
+            _parentId: 638043867886438567
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638043867889291060
+          _name: SM_Env_Cliff_Straight_01
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 8d9d436bff30b474b91a12eed76d1548
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Straight_01.prefab
+            _frequency: 1
+            _parentId: 638043867889291060
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        - _surfaceDistance: 0
+          _embedInSurface: 0
+          _embedAtPivotHeight: 1
+          _localPositionOffset: {x: 0, y: 0, z: 0}
+          _rotateToTheSurface: 1
+          _eulerOffset: {x: 0, y: 0, z: 0}
+          _addRandomRotation: 0
+          _rotationFactor: 90
+          _rotateInMultiples: 0
+          _randomEulerOffset:
+            x:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            y:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+            z:
+              _v1: 0
+              _v2: 0
+              _min: 0
+              _max: 0
+          _separateScaleAxes: 0
+          _scaleMultiplier: {x: 1, y: 1, z: 1}
+          _randomScaleMultiplier: 0
+          _randomScaleMultiplierRange:
+            x:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            y:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+            z:
+              _v1: 1
+              _v2: 1
+              _min: 1
+              _max: 1
+          _thumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
+          _id: 638043867891918318
+          _name: SM_Env_Cliff_Straight_02
+          _items:
+          - _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+            _overwriteSettings: 0
+            _guid: 1c8c6bed3438b9141b6c6e2eb548b815
+            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Straight_02.prefab
+            _frequency: 1
+            _parentId: 638043867891918318
+            _overwriteThumbnailSettings: 0
+            _includeInThumbnail: 1
+          _frequencyMode: 0
+          _pattern: 1...
+          _restartPatternForEachStroke: 1
+        _name: Mountain
+        _id: -8585328205715849229
+        _brushCreationSettings:
+          _includeSubfolders: 1
+          _createLablesForEachDroppedFolder: 0
+          _addLabelsToDroppedPrefabs: 0
+          _labelsCSV: 
+          _defaultBrushSettings:
+            _surfaceDistance: 0
+            _embedInSurface: 0
+            _embedAtPivotHeight: 1
+            _localPositionOffset: {x: 0, y: 0, z: 0}
+            _rotateToTheSurface: 1
+            _eulerOffset: {x: 0, y: 0, z: 0}
+            _addRandomRotation: 0
+            _rotationFactor: 90
+            _rotateInMultiples: 0
+            _randomEulerOffset:
+              x:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              y:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+              z:
+                _v1: 0
+                _v2: 0
+                _min: 0
+                _max: 0
+            _separateScaleAxes: 0
+            _scaleMultiplier: {x: 1, y: 1, z: 1}
+            _randomScaleMultiplier: 0
+            _randomScaleMultiplierRange:
+              x:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              y:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+              z:
+                _v1: 1
+                _v2: 1
+                _min: 1
+                _max: 1
+            _thumbnailSettings:
+              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+              _lightEuler: {x: 130, y: -165}
+              _lightColor: {r: 1, g: 1, b: 1, a: 1}
+              _lightIntensity: 1
+              _zoom: 1
+              _targetEuler: {x: 0, y: 125, z: 0}
+              _targetOffset: {x: 0, y: 0}
+          _defaultThumbnailSettings:
+            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+            _lightEuler: {x: 130, y: -165}
+            _lightColor: {r: 1, g: 1, b: 1, a: 1}
+            _lightIntensity: 1
+            _zoom: 1
+            _targetEuler: {x: 0, y: 125, z: 0}
+            _targetOffset: {x: 0, y: 0}
       - _brushes:
         - _surfaceDistance: 0
           _embedInSurface: 0
@@ -88513,428 +89047,8 @@ MonoBehaviour:
             _zoom: 1
             _targetEuler: {x: 0, y: 125, z: 0}
             _targetOffset: {x: 0, y: 0}
-      - _brushes:
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638043867886438567
-          _name: SM_Env_Cliff_Curve_02
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: f019e2eb8aafd5d4d8d29eb3a8ef2074
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Curve_02.prefab
-            _frequency: 1
-            _parentId: 638043867886438567
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638043867889291060
-          _name: SM_Env_Cliff_Straight_01
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: 8d9d436bff30b474b91a12eed76d1548
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Straight_01.prefab
-            _frequency: 1
-            _parentId: 638043867889291060
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        - _surfaceDistance: 0
-          _embedInSurface: 0
-          _embedAtPivotHeight: 1
-          _localPositionOffset: {x: 0, y: 0, z: 0}
-          _rotateToTheSurface: 1
-          _eulerOffset: {x: 0, y: 0, z: 0}
-          _addRandomRotation: 0
-          _rotationFactor: 90
-          _rotateInMultiples: 0
-          _randomEulerOffset:
-            x:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            y:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-            z:
-              _v1: 0
-              _v2: 0
-              _min: 0
-              _max: 0
-          _separateScaleAxes: 0
-          _scaleMultiplier: {x: 1, y: 1, z: 1}
-          _randomScaleMultiplier: 0
-          _randomScaleMultiplierRange:
-            x:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            y:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-            z:
-              _v1: 1
-              _v2: 1
-              _min: 1
-              _max: 1
-          _thumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
-          _id: 638043867891918318
-          _name: SM_Env_Cliff_Straight_02
-          _items:
-          - _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-            _overwriteSettings: 0
-            _guid: 1c8c6bed3438b9141b6c6e2eb548b815
-            _prefabPath: Assets/Assetpacks/PolygonWestern/Prefabs/Environments/SM_Env_Cliff_Straight_02.prefab
-            _frequency: 1
-            _parentId: 638043867891918318
-            _overwriteThumbnailSettings: 0
-            _includeInThumbnail: 1
-          _frequencyMode: 0
-          _pattern: 1...
-          _restartPatternForEachStroke: 1
-        _name: Mountain
-        _id: -8585328205715849229
-        _brushCreationSettings:
-          _includeSubfolders: 1
-          _createLablesForEachDroppedFolder: 0
-          _addLabelsToDroppedPrefabs: 0
-          _labelsCSV: 
-          _defaultBrushSettings:
-            _surfaceDistance: 0
-            _embedInSurface: 0
-            _embedAtPivotHeight: 1
-            _localPositionOffset: {x: 0, y: 0, z: 0}
-            _rotateToTheSurface: 1
-            _eulerOffset: {x: 0, y: 0, z: 0}
-            _addRandomRotation: 0
-            _rotationFactor: 90
-            _rotateInMultiples: 0
-            _randomEulerOffset:
-              x:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              y:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-              z:
-                _v1: 0
-                _v2: 0
-                _min: 0
-                _max: 0
-            _separateScaleAxes: 0
-            _scaleMultiplier: {x: 1, y: 1, z: 1}
-            _randomScaleMultiplier: 0
-            _randomScaleMultiplierRange:
-              x:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              y:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-              z:
-                _v1: 1
-                _v2: 1
-                _min: 1
-                _max: 1
-            _thumbnailSettings:
-              _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-              _lightEuler: {x: 130, y: -165}
-              _lightColor: {r: 1, g: 1, b: 1, a: 1}
-              _lightIntensity: 1
-              _zoom: 1
-              _targetEuler: {x: 0, y: 125, z: 0}
-              _targetOffset: {x: 0, y: 0}
-          _defaultThumbnailSettings:
-            _backgroudColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-            _lightEuler: {x: 130, y: -165}
-            _lightColor: {r: 1, g: 1, b: 1, a: 1}
-            _lightIntensity: 1
-            _zoom: 1
-            _targetEuler: {x: 0, y: 125, z: 0}
-            _targetOffset: {x: 0, y: 0}
       _selectedPaletteIdx: 0
-      _selectedBrushIdx: 5
+      _selectedBrushIdx: 0
       _showBrushName: 0
       _viewList: 0
     pinManager:
@@ -93490,7 +93604,7 @@ MonoBehaviour:
         _snapToRadius: 1
         _snapToCircunference: 1
         _majorLinesGap: {x: 10, y: 10, z: 10}
---- !u!114 &15
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93511,9 +93625,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 575
-    width: 1391
-    height: 464
+    y: 883
+    width: 1525
+    height: 156
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -93531,22 +93645,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio/2_school/CreativeRoom
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Audio/2_school/CreativeRoom
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\Documents\School\Y4\Garduation\Documents\Unity\Graduation_Culture_project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: f0820200
-    m_LastClickedID: 164592
-    m_ExpandedIDs: 0000000070c9000076c9000078c900007cc90000f09e0100f49e010084ba0100
+    scrollPos: {x: 0, y: 72}
+    m_SelectedIDs: 9acb0000
+    m_LastClickedID: 52122
+    m_ExpandedIDs: 0000000068cb000030a51000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -93574,7 +93688,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000070c90000
+    m_ExpandedIDs: 0000000068cb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -93602,7 +93716,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000dacd0100e2cd0100e6cd0100b69e0100eecd0100349f000012440100
+    m_ExpandedInstanceIDs: c6230000dacd0100e2cd0100e6cd0100b69e0100eecd010012440100f0cb000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -93618,7 +93732,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 3}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -93630,7 +93744,7 @@ MonoBehaviour:
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &16
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93650,9 +93764,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1392
+    x: 1526
     y: 73
-    width: 527
+    width: 393
     height: 966
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -93671,7 +93785,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &17
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93693,18 +93807,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 364
-    height: 481
+    width: 268
+    height: 789
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 14612}
-      m_SelectedIDs: be6c0000
-      m_LastClickedID: 27838
-      m_ExpandedIDs: 545cfeffd665feffa8f8feff6a14ffff4ca3ffff88bbffffa2bdffff32d3ffff8ed3ffffbcd6ffffc0d9ffffccdfffffbaeaffff46eeffff1cfbffff3e6b00004a6b0000ea6b0000ee6b0000be6c0000fc6c00002e6d0000266e00007a6e00008a6e0000a46e0000ca6e00007a6f0000c06f0000c46f0000ec6f00009e700000d471000086720000a6720000da720000187300006873000070730000b0730000c2740000fa7400000a750000327500003e7500007475000078750000a0750000a4750000ac7500000c7700004c770000c2770000ca770000f8770000047800000c780000ca780000a67900005a7a00006e7b00009c7b0000d67b00006e7c00007a7c0000c07c00009e7d0000707e0000787e00008c7e0000aa7e0000c87e0000d07e0000f87e00003a7f0000a080000006810000b4810000f481000020820000ba82000098830000f883000004840000688400007e8400009e840000b0840000368500003a8500005c850000a68500000c8600005c860000e2860000c087000020880000248800007088000078880000c8880000ce88000022890000d0890000868a0000b48a0000208b0000368b0000088c0000268c00009c8c0000a48c0000a08d0000088e0000b68e0000068f0000308f0000828f00000a90000070900000ec9000002e910000b891000094920000e2920000829300009c930000929400009a9400002095000038950000da95000050960000
+      scrollPos: {x: 0, y: 224}
+      m_SelectedIDs: 7eb6fcff
+      m_LastClickedID: -215426
+      m_ExpandedIDs: aec6fcffc6e7fcff38b0fdff3cb0fdff40b0fdffacc9fdffc4cafdffb6cbfdffc225feffaedefeff4a26ffffba26ffff442bffffd434ffffe034ffffb095ffffb495ffffb895ffffbc95ffffc095ffffc495ffffc895ffffcc95ffffd095ffffd495ffffd895ffffdc95ffffe095ffffe495ffffe895fffff095ffff0a96ffff9c98ffffc698ffffcc99ffff1e9bffff349bffff9a9bffffc09bffffe09bfffff49bffff9e9cffff629dffff789fffff8e9fffff02a0ffff0aa0ffff2ca0ffff58a1ffff5ca1ffff60a1ffff64a1ffff68a1ffff6ca1ffff70a1ffff78a1ffff94a1ffff98a1ffff9ca1ffffa0a1ffffa4a1ffffa8a1ffffaca1ffffb0a1ffffb4a1ffffb8a1ffffbca1ffffc0a1ffffc8a1ffff6ea4ffffa4a4ffff38a5ffff4ea5ffffd8a5ffff04a6fffff8a6fffffca6ffff00a7ffff04a7ffff08a7ffff0ca7ffff10a7ffff14a7ffff18a7ffff1ca7ffff20a7ffff24a7ffff2ca7ffff56a9ffffc0a9ffffc4a9ffffc6a9ffffcaa9ffffdca9ffffe6a9ffffeea9ffffe4abffffe8abffffecabfffff0abfffff4abfffff8abfffffcabffff00acffff04acffff08acffff0cacffff10acffff14acffff18acffff1cacffff24acffff8cacffff90acffff94acffff98acffff9cacffffa0acffffa4acffffa8acffffacacffffb0acffffb4acffffb8acffffbcacffffc0acffffc4acffffccacffffeaacffffaaadffffc2adffffe2adfffffaadffff0caeffff20aeffff26aeffff38aeffff4caeffff52aeffff6eaeffff76aeffff82aeffff9eaeffffa6aeffffb2aeffffceaeffffdcaeffffe0aeffffe6aeffffeeaefffff2aeffff0eafffff1aafffff20afffff38afffff5eafffff94b1ffff4eb2ffffceb4ffff52b5ffffecb5fffff0b5fffff4b5ffff02b6ffff84b6ffffdab6ffff58b9ffff5cb9ffff60b9ffff6eb9ffff98b9ffff66baffff9ebbffff8abcffff04beffff82bfffffcebfffff38c0ffff3cc0ffff40c0ffff6ec0ffff76c1ffff78c9ffff7cc9ffff80c9ffff84c9ffff88c9ffff8cc9ffff90c9ffff94c9ffff98c9ffff9cc9ffffa0c9ffffa4c9ffffa8c9ffffacc9ffffb0c9ffffb8c9ffff4acaffff4ecaffff52caffff56caffff5acaffff60caffff68caffff6ccaffff70caffff74caffff78caffff7ecaffff8acaffffbecaffff20cbffff2ecdffff44cdffff74cfffff78cfffff7ccfffff80cfffff84cfffff88cfffff8ccfffff90cfffff14d2ffff24d2ffff34d2ffff44d2ffffc2d2ffffbad3ffff00d4ffff32d4ffff5ed5ffffc2d5ffffc6d5ffffcad5ffffced5ffffd2d5ffffd8d5ffffe0d5ffffe4d5ffffe8d5ffffecd5fffff0d5fffff6d5ffff02d6ffff12d6ffff2cd9ffff34d9ffffc4d9ffffc8d9ffffccd9ffffd0d9ffffd4d9ffffdad9ffffe2d9ffffe6d9ffffead9ffffeed9fffff2d9fffff8d9ffff04daffffb4daffff56dbffff56dcffffaadcffffccdcffffacddfffffeddffff02deffff06deffff0edeffff7adeffff6cdfffff7ee0ffff5ae2fffff6e2ffffcee4ffff50e5ffffe8e7ffff80eaffffa0eaffff68ebfffff8ebffffcaecffff50edffffc2edffff22eeffff42eeffff46eeffff4aeeffff4eeeffff52eeffff58eeffff60eeffff64eeffff68eeffff6ceeffff70eeffff76eeffff82eeffff7aefffff30f0ffff32f0ffff3af0ffff3cf0ffff40f0ffff44f0ffff48f0ffff4cf0ffffbaf0ffffbef0ffffc2f0ffffc6f0ffffcaf0ffffd0f0ffffd8f0ffffdcf0ffffe0f0ffffe4f0ffffe8f0ffffeef0fffffaf0ffff3cf1ffffe6f1ffff1cf2ffff28f3ffff5cf3ffff46f6ffff7ef7ffff9ef7fffff0f8ffff50fafffffafafffffefaffff02fbffff06fbffff0afbffff0efbffff12fbffff1afbffff1cfbffff566b0000646b0000846b0000886b0000b46b0000006c0000046c0000706c00007c6c0000ae6c0000be6c0000de6c00001a6d0000446d00004c6d00007a6d00008c6d0000966e0000a66e0000c06e0000d06e0000e66e00000c6f0000346f00004e6f00008a6f0000966f0000d86f0000dc6f0000f86f00000470000008700000327000007c7000008070000098700000ba700000f87000007c710000ce71000010720000387200003c7200004072000046720000c8720000fc7200005a7300007073000092730000ba730000c6730000d67300002e7400004a7400009c740000d4740000e2740000e6740000ec740000f27400003a7500008c7500009c750000a0750000c2750000d0750000d87500002076000090760000ae7600001c7700003677000054770000767700008a770000ec770000f4770000007800001e780000227800002a780000327800003e780000bc780000d27800004c790000307a0000427a00005e7a0000967a00009a7a0000a67a0000fa7a0000147b0000367b00003e7b0000547b00008a7b0000b67b0000ca7b0000e47b0000087c00001e7c0000327c0000987c0000da7c00000c7d00003c7d0000467d00004e7d0000887d0000b27d0000ce7d0000ea7d0000f27d0000fa7d0000287e00003a7e00004e7e0000c27e0000da7e0000e27e0000f47e0000127f00001a7f00003a7f0000467f00008a7f0000d07f0000268000002a8000003480000084800000a6800000e0800000088100001c81000020810000408100008a81000096810000f4810000008200000c8200001e820000648200006e820000e8820000fa820000188300003a830000428300005883000070830000bc830000d0830000e08300001a8400001e84000044840000508400009284000096840000c8840000ce840000d2840000e6840000fa8400000c8500002485000038850000708500009285000096850000aa850000b8850000e0850000068600005a8600006c860000748600008086000094860000c4860000ee860000008700005287000084870000a28700003888000098880000ec880000f48800001e8900002a890000488900004e89000090890000a2890000d6890000428a00004e8a00006a8a0000748a00008e8a0000ce8a00000a8b0000388b0000408b0000648b00007a8b00009a8b0000a88b0000ac8b0000be8b0000e08b0000368c00004e8c0000568c0000688c0000768c0000ae8c0000d68c0000028d00002c8d00004e8d00006e8d0000788d00009a8d0000c48d0000308e0000508e0000568e00009e8e0000b88e0000f28e0000f68e0000fc8e0000148f00004c8f0000628f0000968f0000f08f00003e900000609000006490000084900000a0900000c0900000d2900000de9000000a91000036910000769100008291000086910000fe910000069200004e92000052920000929200009c920000a4920000f2920000629300006c9300007c9300008c930000e4930000129400001c940000369400009c940000c8940000d2940000fe9400004695000068950000b8950000d0950000b2960000fe96000022970000409700008e970000fa980000c6990000ee990000f29900001ce31000dae9100016ed10007afb1000aaff1000c80b1100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -93728,7 +93842,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &18
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93748,10 +93862,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 365
+    x: 269
     y: 73
-    width: 1025
-    height: 481
+    width: 1255
+    height: 789
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -93986,9 +94100,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 32.332645, y: 16.464357, z: 7.7274117}
+    m_Target: {x: 12.477234, y: 16.399029, z: 5.579536}
     speed: 2
-    m_Value: {x: 32.332645, y: 16.464357, z: 7.7274117}
+    m_Value: {x: 12.477234, y: 16.399029, z: 5.579536}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -94014,7 +94128,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -94027,7 +94141,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -94035,20 +94149,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1051003, y: 0.6027731, z: -0.080717035, w: -0.7869458}
+    m_Target: {x: 0.06852575, y: 0.529781, z: -0.043030825, w: 0.84432685}
     speed: 2
-    m_Value: {x: -0.10379072, y: 0.604019, z: -0.07996116, w: -0.78612643}
+    m_Value: {x: 0.068522215, y: 0.5297537, z: -0.043028608, w: 0.8442834}
   m_Size:
-    m_Target: 1.0503211
+    m_Target: 5.3061748
     speed: 2
-    m_Value: 1.0503216
+    m_Value: 5.3061748
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 2
+    m_SpeedNormalized: 1
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -94059,14 +94173,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.3082956, y: 0.5924723, z: -0.262779, w: -0.6965825}
+  m_LastSceneViewRotation: {x: -0.1885409, y: -0.17773697, z: 0.034694813, w: -0.96524346}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94086,10 +94200,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 346
+    x: 269
     y: 73
-    width: 1044
-    height: 740
+    width: 1255
+    height: 789
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -94100,7 +94214,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1044, y: 719}
+  m_TargetSize: {x: 1255, y: 768}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -94115,10 +94229,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -522
-    m_HBaseRangeMax: 522
-    m_VBaseRangeMin: -359.5
-    m_VBaseRangeMax: 359.5
+    m_HBaseRangeMin: -627.5
+    m_HBaseRangeMax: 627.5
+    m_VBaseRangeMin: -384
+    m_VBaseRangeMax: 384
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -94127,7 +94241,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -94136,29 +94250,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1044
-      height: 719
+      width: 1255
+      height: 768
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 522, y: 359.5}
+    m_Translation: {x: 627.5, y: 384}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -522
-      y: -359.5
-      width: 1044
-      height: 719
+      x: -627.5
+      y: -384
+      width: 1255
+      height: 768
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1044, y: 740}
+  m_LastWindowPixelSize: {x: 1255, y: 789}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &20
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94179,9 +94293,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 617
-    width: 1391
-    height: 422
+    y: 494
+    width: 1525
+    height: 545
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

@@ -4,23 +4,22 @@ using UnityEngine;
 
 public class TranslatableObject : MonoBehaviour
 {
-
-    //public int audioClipNumber;
     public AudioClip[] clipsToPlay;
     public bool scannable;
     public bool isScaneble;
 
-    // Start is called before the first frame update
+    public bool isPlaying;
+
     void Start()
     {
         scannable = true;
         isScaneble = false;
-
+        isPlaying = false;
 
     }
-   private void OnTriggerStay(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player" && other.gameObject.GetComponent<TranslationTool>().isTranslating)
+        if (other.gameObject.tag == "Player" && other.gameObject.GetComponent<TranslationTool>().cabTellport)
         {
             isScaneble = true;
             if (scannable)
@@ -28,21 +27,33 @@ public class TranslatableObject : MonoBehaviour
                 other.gameObject.GetComponent<TranslationTool>().timesTranslated++;
                 scannable = false;
             }
-            
 
-            if(other.gameObject.GetComponent<TranslationTool>().timesTranslated == 1)
-            {
-                other.gameObject.GetComponent<AudioSource>().PlayOneShot(clipsToPlay[0]);
-            }
-            else if (other.gameObject.GetComponent<TranslationTool>().timesTranslated == 2)
-            {
-                other.gameObject.GetComponent<AudioSource>().PlayOneShot(clipsToPlay[1]);
-            }
-            else if (other.gameObject.GetComponent<TranslationTool>().timesTranslated >= 3)
-            {
-                other.gameObject.GetComponent<AudioSource>().PlayOneShot(clipsToPlay[2]);
+            AudioSource audioSource = other.gameObject.GetComponent<AudioSource>();
 
+            // Check if the AudioSource is currently playing an audio clip
+            if (!audioSource.isPlaying)
+            {
+                
+                if (other.gameObject.GetComponent<TranslationTool>().timesTranslated == 1)
+                {
+                    audioSource.PlayOneShot(clipsToPlay[0]);
+                }
+                else if (other.gameObject.GetComponent<TranslationTool>().timesTranslated == 2)
+                {
+                    audioSource.PlayOneShot(clipsToPlay[1]);
+                }
+                else if (other.gameObject.GetComponent<TranslationTool>().timesTranslated >= 3)
+                {
+                    audioSource.PlayOneShot(clipsToPlay[2]);
+                }
             }
+
+
+          // if ((OVRInput.GetDown(OVRInput.Button.Two)) && (isPlaying =  true))
+          // {
+                 //Stop the audio from playing
+               // audioSource.Stop();
+           // }
         }
     }
 
@@ -56,45 +67,5 @@ public class TranslatableObject : MonoBehaviour
         other.gameObject.GetComponent<TranslationTool>().scanVisual = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
-
-
-
-
-/* Old Code Below
- * 
- * if (other.gameObject.tag == "Player" && other.gameObject.GetComponent<TranslationTool>().isTranslating && other.gameObject.GetComponent<TranslationTool>().timesTranslated == 0)
-        {
-            other.gameObject.GetComponent<AudioSource>().PlayOneShot(clipsToPlay[0]);
-            if (scannable)
-            {
-                other.gameObject.GetComponent<TranslationTool>().timesTranslated++;
-                scannable = false;
-            }
-
-        }
-        else if(other.gameObject.tag == "Player" && other.gameObject.GetComponent<TranslationTool>().isTranslating && other.gameObject.GetComponent<TranslationTool>().timesTranslated == 1)
-        {
-            other.gameObject.GetComponent<AudioSource>().PlayOneShot(clipsToPlay[1]);
-            if (scannable)
-            {
-                other.gameObject.GetComponent<TranslationTool>().timesTranslated++;
-                scannable = false;
-            }
-        }
-        else if(other.gameObject.tag == "Player" && other.gameObject.GetComponent<TranslationTool>().isTranslating && other.gameObject.GetComponent<TranslationTool>().timesTranslated >= 2)
-        {
-            other.gameObject.GetComponent<AudioSource>().PlayOneShot(clipsToPlay[2]);
-            if (scannable)
-            {
-                other.gameObject.GetComponent<TranslationTool>().timesTranslated++;
-                scannable = false;
-            }
-        }
-
-*/
