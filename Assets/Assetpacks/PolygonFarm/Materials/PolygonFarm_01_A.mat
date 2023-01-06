@@ -84,8 +84,8 @@ Material:
     - _Segmented: 1
     - _ShnIntense: 0
     - _ShnOverlap: 0
-    - _ShnRange: 0.332
-    - _ShnSmooth: 1
+    - _ShnRange: 0
+    - _ShnSmooth: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -97,5 +97,5 @@ Material:
     - _Color: {r: 0.88699996, g: 0.9909027, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OtlColor: {r: 0.46569064, g: 0.60280573, b: 0.6132076, a: 1}
-    - _ShnColor: {r: 0.8055358, g: 0.990566, b: 0.52799034, a: 1}
+    - _ShnColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
