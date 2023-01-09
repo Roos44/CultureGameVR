@@ -840,8 +840,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.192451, y: 1, z: 4.88}
+  m_Center: {x: -0.09622545, y: 0, z: 0}
 --- !u!1 &549277452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,7 +1921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipsToPlay:
-  - {fileID: 8300000, guid: 5d2ebebc99138af45825818ec2831558, type: 3}
+  - {fileID: 8300000, guid: 2c8fbb086a7eca947bb4a636643a3c81, type: 3}
   scannable: 0
   isScaneble: 0
   isPlaying: 0
@@ -1995,14 +1995,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230322391}
-  m_LocalRotation: {x: -0, y: -0, z: 0.4468252, w: 0.8946213}
-  m_LocalPosition: {x: 5.7130013, y: 6.9097395, z: -0.7600002}
+  m_LocalRotation: {x: -0.16383743, y: -0.37176934, z: 0.4446583, w: 0.7982631}
+  m_LocalPosition: {x: 5.69, y: 7.6499996, z: 1.1099997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 473836975}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 53.08}
+  m_LocalEulerAnglesHint: {x: 3.959, y: -47.818, z: 56.483}
 --- !u!1 &1352675339
 GameObject:
   m_ObjectHideFlags: 0
