@@ -275,6 +275,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ed58d43d376689b46bc5bc1530d0f2af, type: 3}
   scannable: 0
   isScaneble: 0
+  isPlaying: 0
 --- !u!1001 &2630254963244067089
 PrefabInstance:
   m_ObjectHideFlags: 0
