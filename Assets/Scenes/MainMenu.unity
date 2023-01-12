@@ -2877,6 +2877,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -120.61804
       objectReference: {fileID: 0}
+    - target: {fileID: 3861110802821088033, guid: ae2c88129b4d5ad499380c1d42702c5f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 3861110802821088038, guid: ae2c88129b4d5ad499380c1d42702c5f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
