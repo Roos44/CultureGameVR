@@ -34,15 +34,15 @@ public class TranslatableObject : MonoBehaviour
             if (!audioSource.isPlaying)
             {
                 
-                if (other.gameObject.GetComponent<TranslationTool>().timesTranslated == 1)
+                if (other.gameObject.GetComponent<TranslationTool>().timesTranslated <= 3)
                 {
                     audioSource.PlayOneShot(clipsToPlay[0]);
                 }
-                else if (other.gameObject.GetComponent<TranslationTool>().timesTranslated == 2)
+                else if (other.gameObject.GetComponent<TranslationTool>().timesTranslated > 3 && other.gameObject.GetComponent<TranslationTool>().timesTranslated <= 9 )
                 {
                     audioSource.PlayOneShot(clipsToPlay[1]);
                 }
-                else if (other.gameObject.GetComponent<TranslationTool>().timesTranslated >= 3)
+                else if (other.gameObject.GetComponent<TranslationTool>().timesTranslated >= 9)
                 {
                     audioSource.PlayOneShot(clipsToPlay[2]);
                 }
